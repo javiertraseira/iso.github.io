@@ -20,13 +20,13 @@ Se pueden clasificar los SO teniendo en cuenta la gestión que hacen del softwar
 <img src="media\Clasificacion_SO.png" alt="Clasificacion_SO" style="zoom: 80%;" />
 
 1.  **Sistemas operativos monopuesto **(SOMO): Un solo usuario utiliza a la vez el Sistema Operativo y sus recursos. Se denominan también de escritorio.
-    
+
 2.  **Sistemas operativos multiusuario **(SOMU): Permiten que varios usuarios puedan ejecutar a la vez distintos programas y hacer uso de los recursos de una máquina al mismo tiempo.
-    
+
 3.  **Sistemas operativos en Red **(SORED): Son aquellos que permite la interconexión de ordenadores a través de una Red para poder acceder a servicios, recursos, hardware y software.
-    
+
 4.  **Sistemas operativos distribuidos **(SOD): administran una colección de nodos distribuidos que trabajan en red, se comunican entre ellos y comparten recursos.
-    
+
 5.  **Sistemas operativos en tiempo real**: Son sistemas orientados a la respuesta en tiempo real, usados en sistemas críticos o cuando el tiempo de
     respuesta debe ser inmediato.
 
@@ -45,12 +45,12 @@ Se pueden clasificar los SO teniendo en cuenta la gestión que hacen del softwar
    Supongamos que hay cinco usuarios utilizando este sistema y que cada uno ejecuta un programa distinto. El SO deberá trabajar mucho, ya que tendrá que ubicar en memoria cinco programas diferentes, e ir ejecutando rotativamente, en principio, instrucciones de cada uno de los programas para que a todos  los usuarios se les dé una respuesta en el menor tiempo posible. La  velocidad de respuesta por tanto será inferior a la que daría un SOMO o un sólo usuario.
 
    De esta forma, todo se procesa en un ordenador principal. Primero se ejecutan unas instrucciones del primer programa lanzado por el primer usuario. Acto seguido, este programa se queda detenido para dar un poco de tiempo en la CPU al proceso lanzado por el segundo usuario.
-Este proceso se repetirá secuencialmente para dar servicio a todos los programas de todos los usuarios.
-   
+   Este proceso se repetirá secuencialmente para dar servicio a todos los programas de todos los usuarios.
+
 3. **Procesamiento en Sistemas Operativos en Red (*SORED*):**
 
    En los SORED, cada usuario tendrá su proprio ordenador personal con un SO, normalmente monousuario. Cada usuario encenderá su ordenador y establecerá comunicación con el ordenador principal que dispone del SORED. 
-   
+
    Si partiéramos del mismo ejemplo anterior con cuatro usuarios ejecutando cada uno un programa diferente, dispondríamos de cinco CPUs, cinco bloques de memoria independientes, cinco o más dispositivos de almacenamiento, etc.
 
 4. **Procesamiento en Sistemas Operativos distribuidos (*SOD*):**
@@ -107,7 +107,7 @@ La aparición de los **circuitos integrados **y de la **multiprogramación **sup
 **Multiprogramación**
 
 -   Varios trabajos en memoria: cuando uno espera para E/S, otro se puede ejecutar
-    
+
 -   Necesidad de planificación y protección
 
 **Tiempo compartido (multitarea)**
@@ -143,17 +143,17 @@ La disponibilidad de una cada vez mayor potencia de cómputo, junto con una cada
 Los sistemas operativos que cobran gran popularidad inicialmente en este período (abuelos de los actuales) son **MS-DOS **y **UNIX**:
 
 -   **MS-DOS **de Microsoft fue el primer sistema operativo creado para ordenadores personales en la década de los 80 y su sucesor fue Windows (inicialmente se ejecutaba encima de MS-DOS). Se trata de un sistema operativo grabado en un disco, de modo que se encontraba permanentemente activo y residente en memoria.
-    
+
 -   **UNIX **dominaba las estaciones de trabajo y servidores en red, así como máquinas de alto rendimiento.
 
 -   **MSDOS **fue creado como tal en 1981 después de que Microsoft comprara *QDOS* modificándolo y haciéndolo compatible con *IBM-PC*.
 
 -   En 1984 se lanzaba el primera ordenador Macintosh incluyendo su sistema operativo **MacOS**, cuyas características novedosas eran una GUI avanzada, multitarea y ratón.
-    
+
 -   A mediados de los años 80 nace la primera versión de **Windows**, un mero gestor de ventanas que corre sobre MSDOS, pero no es hasta Windows 95 que se considera un SO separado. La familia siguió creciendo con Windows 98, NT, Me, 2000, XP, 7, 8 y 10.
-    
+
 -   Respecto a **Linux **nace en 1991 creado por Linus Towards como una versión mejorada de Unix con licencia **GNU**. Hoy ha evolucionado a un entorno gráfico con gestores de ventanas como KDE, GNOME así como distintas distribuciones que se han ido haciendo famosas (Ubuntu, Debian, Suse, Fedora, Mint…)
-    
+
 -   Entre 2003-2007 surgen los SO móviles: **iOS **y **Android**
 
 >   En esta generación aparecen las distintas variantes conocidas en la actualidad; los sistemas operativos **multiusuario**, los SO en **red**, SO **distribuidos**, SO móviles y SO en **tiempo real**.
@@ -163,7 +163,7 @@ Los sistemas operativos que cobran gran popularidad inicialmente en este períod
 Evolución histórica	
 
 | **Generación** | **Fecha**       | **Tecnología**                           | **Sistemas Operativos**                                |
-|----------------|-----------------|------------------------------------------|--------------------------------------------------------|
+| -------------- | --------------- | ---------------------------------------- | ------------------------------------------------------ |
 | **1ª**         | 1945-1955       | Tubos de vacío y Tableros                | S.O. no existía                                        |
 | **2ª**         | 1955-1965       | Transistores y Sistemas por lotes        | FMS e IBSYS de IBM                                     |
 | **3ª**         | 1965-1980       | Circuitos integrados y multiprogramación | OS/360, MULTICS, UNICS                                 |
@@ -233,15 +233,15 @@ Algunos **conceptos clave **usados por los Sistemas Operativos son:
 
 -   **Usuario: **Toda aquella persona que trabaja en el sistema.
 -   **Sesión: **Periodo de tiempo durante el cual un usuario interactúa con el sistema.
-    
+
 -   **Programa: **Código ejecutable. Se trata de un concepto estático.
-    
+
 -   **Proceso: **Programa en ejecución y en memoria. Concepto dinámico.
-    
+
 -   **Fichero: **Unidad lógica de almacenamiento de datos.
-    
+
 -   **Programas del sistema: **Ofrecen un entorno proporcionado por el SO para el desarrollo y ejecución de programas.
-    
+
 -   **Interfaz de usuario: **Permite dar instrucciones al SO a través de diversas formas.
 
 ### Servicios y procesos
@@ -261,9 +261,9 @@ Los **procesos **son otro importante concepto manejado por el sistema operativo,
 Los procesos son gestionados por el sistema operativo y están formados por:
 
 -   Las **instrucciones **de un programa destinadas a ser ejecutadas por el microprocesador.
-    
+
 -   Su **estado de ejecución **en un momento dado, esto es, los valores de los registros de la unidad central de procesamiento para dicho programa.
-    
+
 -   Su **memoria de trabajo**, es decir, la memoria que ha reservado y su contenido.
 
 ### Diferencias entre servicios y procesos
@@ -301,7 +301,7 @@ Cualquier programa que se esté ejecutando en un ordenador se convierte en un pr
 Existen dos tipos de procesos:
 
 -   **Procesos de usuario**: creados por cualquier usuario del sistema y que se ejecutan en modo usuario
-    
+
 -   **Procesos del Sistema Operativo**: creados por el SO o sus servicios y que se ejecutan en modo privilegiado o modo kernel.
 
 Durante la ejecución de un proceso, este **compite **con el resto de los procesos que se están ejecutando de forma concurrente en el sistema por el uso de los recursos hardware (ya sea la CPU o la gráfica)
@@ -337,67 +337,69 @@ Los datos de salida se almacenan de forma temporal en una cola situada en un dis
 Las interfaces se clasifican en:
 
 -   **Interfaz tipo texto**. Si el SO es de tipo texto, todas las órdenes que el usuario introduzca y las respuestas que el SO dé se introducirán o visualizarán mediante cadenas de caracteres.
-    
+
 -   **Interfaz tipo gráfico**. Hoy en día, la mayoría de los sistemas operativos utiliza medios de comunicación entre máquina y ordenador de  tipo gráfico.
-    
+
 -   **Interfaz mixta**. Hoy en día, la mayoría de los sistemas operativos utilizan ambas interfaces para comunicarse con el usuario.
 
 ##   Modos de explotación	
 
 #### 1.  **Explotación según su procesamiento**
 
--   **Procesamiento por Lotes:**
+- **Procesamiento por Lotes:**
 
-    Es el sistema que se utilizaba en la segunda generación de ordenadores con SO como FMS e IBSYS, y en el que había 4 pasos diferenciados: introducir los datos, transportarlos a la computadora y procesar los datos en la computadora y traerlos de vuelta.
-    
--   **Procesamiento de respuesta inmediata:**
+  Es el sistema que se utilizaba en la segunda generación de ordenadores con SO como FMS e IBSYS, y en el que había 4 pasos diferenciados: introducir los datos, transportarlos a la computadora y procesar los datos en la computadora y traerlos de vuelta.
 
-    Se trata del sistema de procesamiento utilizado en la actualidad. Se introducen los datos en el momento y la respuesta también se obtiene de forma inmediata desde la CPU, es decir, hay que esperar poco entre lo que se tarda en introducir los datos y la repuesta, dependiendo eso de lo que tarde el proceso o programa en sí.
+- **Procesamiento de respuesta inmediata:**
+
+  Se trata del sistema de procesamiento utilizado en la actualidad. Se introducen los datos en el momento y la respuesta también se obtiene de forma inmediata desde la CPU, es decir, hay que esperar poco entre lo que se tarda en introducir los datos y la repuesta, dependiendo eso de lo que tarde el proceso o programa en sí.
 
 #### 2.  **Explotación según número de usuarios**
 
--   **Monousuario**:
+- **Monousuario**:
 
-    Un solo usuario utiliza a la vez el Sistema Operativo y sus recursos.
+  Un solo usuario utiliza a la vez el Sistema Operativo y sus recursos.
 
--   **Multiusuario**:
+- **Multiusuario**:
 
-    Permiten que varios usuarios puedan ejecutar a la vez distintos programas y hacer uso de los recursos de una máquina al mismo tiempo.
+  Permiten que varios usuarios puedan ejecutar a la vez distintos programas y hacer uso de los recursos de una máquina al mismo tiempo.
 
 #### 3.  **Explotación según número de procesos**
 
--   **Monoprogramación o monotarea**:
+- **Monoprogramación o monotarea**:
 
-    Solo se puede ejecutar un programa o proceso a la vez. Todos los recursos del sistema están dedicados a ese programa o recurso.
-    
-    Un SO monotarea no significa que no pueda ser multiusuario, siempre y cuando esperen su turno de ejecución.
-  
--   **Multiprogramación o multitarea**:
+  Solo se puede ejecutar un programa o proceso a la vez. Todos los recursos del sistema están dedicados a ese programa o recurso.
 
-    En este tipo de SO se pueden ejecutar varios programas o procesos concurrentemente. Si el SO se instala en una máquina con un solo procesador, la CPU compartirá su tiempo entre los diferentes procesos que requieran ejecutarse a la vez en ese momento.
+  Un SO monotarea no significa que no pueda ser multiusuario, siempre y cuando esperen su turno de ejecución.
+
+- **Multiprogramación o multitarea**:
+
+  En este tipo de SO se pueden ejecutar varios programas o procesos concurrentemente. Si el SO se instala en una máquina con un solo procesador, la CPU compartirá su tiempo entre los diferentes procesos que requieran ejecutarse a la vez en ese momento.
 
 #### 4.  **Explotación según número de procesadores**
 
--   **Monoprocesador**:
+- **Monoprocesador**:
 
-    El ordenador consta de un único procesador y todos los procesos y tareas tendrán que pasar por él. Un ordenador monoprocesador podrá tener un SO monotarea, multitarea, monousuario o multiusuario.
-    
--   **Multiprocesador:**
+  El ordenador consta de un único procesador y todos los procesos y tareas tendrán que pasar por él. Un ordenador monoprocesador podrá tener un SO monotarea, multitarea, monousuario o multiusuario.
 
-    Todo aquel ordenador que tenga dos o más procesadores (dual core) .
+- **Multiprocesador:**
 
-    1.  **Multiproceso simétrico**: El SO utilizará la potencia de los
-        procesadores de igual forma.
+  Todo aquel ordenador que tenga dos o más procesadores (dual core) .
 
-    2.  **Multiproceso asimétrico**: El SO repartirá las tareas que esté
-        realizando cada procesador de la forma más efectiva que considere.
+  1.  **Multiproceso simétrico**: El SO utilizará la potencia de los
+      procesadores de igual forma.
+
+  2.  **Multiproceso asimétrico**: El SO repartirá las tareas que esté
+      realizando cada procesador de la forma más efectiva que considere.
 
 #### 5.  Explotación según el tiempo de respuesta
 
--  **Tiempo real:**
+- **Tiempo real:**
 
-    La respuesta es prácticamente inmediata tras lanzar un proceso.
+  La respuesta es prácticamente inmediata tras lanzar un proceso.
 
--   **Tiempo compartido:**
+- **Tiempo compartido:**
 
-    Cada proceso utilizará ciclos de la CPU de forma fragmentada hasta finalizar.
+  Cada proceso utilizará ciclos de la CPU de forma fragmentada hasta finalizar.
+
+
