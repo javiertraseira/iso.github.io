@@ -3,13 +3,13 @@
 
 ## Sistema Operativo
 
->   El **Sistema Operativo (SO) **es el software básico de cualquier ordenador o computadora. Este software gestiona los recursos hardware del sistema informático y proporciona una base para la creación y ejecución del software de diferentes aplicaciones e interacción con el usuario.
+>   El **Sistema Operativo (SO)** es el software básico de cualquier ordenador o computadora. Este software gestiona los recursos hardware del sistema informático y proporciona una base para la creación y ejecución del software de diferentes aplicaciones e interacción con el usuario.
 
 Gracias al Sistema Operativo, el hardware se identifica, se reconoce y el Sistema Informático empieza a funcionar.
 
 Gracias a los programas y aplicaciones del propio Sistema Operativo (SO), el usuario podrá realizar determinadas funciones específicas.
 
-El **Sistema Operativo **ofrece al usuario la forma de comunicarse con el  ordenador, bien mediante el teclado (**interfaz texto**), bien mediante  otros dispositivos como el ratón, la pantalla táctil, etc. (**interfaz  gráfica**). El SO es el medio que el usuario utiliza para realizar sus funciones en un sistema informático u ordenador.
+El **Sistema Operativo** ofrece al usuario la forma de comunicarse con el  ordenador, bien mediante el teclado (**interfaz texto**) , bien mediante  otros dispositivos como el ratón, la pantalla táctil, etc. (**interfaz  gráfica**) . El SO es el medio que el usuario utiliza para realizar sus funciones en un sistema informático u ordenador.
 
 ## Clasificación de los SO
 
@@ -19,13 +19,13 @@ Se pueden clasificar los SO teniendo en cuenta la gestión que hacen del softwar
 
 <img src="media\Clasificacion_SO.png" alt="Clasificacion_SO" style="zoom: 80%;" />
 
-1.  **Sistemas operativos monopuesto **(SOMO): Un solo usuario utiliza a la vez el Sistema Operativo y sus recursos. Se denominan también de escritorio.
+1.  **Sistemas operativos monopuesto** (SOMO): Un solo usuario utiliza a la vez el Sistema Operativo y sus recursos. Se denominan también de escritorio.
 
-2.  **Sistemas operativos multiusuario **(SOMU): Permiten que varios usuarios puedan ejecutar a la vez distintos programas y hacer uso de los recursos de una máquina al mismo tiempo.
+2.  **Sistemas operativos multiusuario** (SOMU): Permiten que varios usuarios puedan ejecutar a la vez distintos programas y hacer uso de los recursos de una máquina al mismo tiempo.
 
-3.  **Sistemas operativos en Red **(SORED): Son aquellos que permite la interconexión de ordenadores a través de una Red para poder acceder a servicios, recursos, hardware y software.
+3.  **Sistemas operativos en Red** (SORED): Son aquellos que permite la interconexión de ordenadores a través de una Red para poder acceder a servicios, recursos, hardware y software.
 
-4.  **Sistemas operativos distribuidos **(SOD): administran una colección de nodos distribuidos que trabajan en red, se comunican entre ellos y comparten recursos.
+4.  **Sistemas operativos distribuidos** (SOD): administran una colección de nodos distribuidos que trabajan en red, se comunican entre ellos y comparten recursos.
 
 5.  **Sistemas operativos en tiempo real**: Son sistemas orientados a la respuesta en tiempo real, usados en sistemas críticos o cuando el tiempo de
     respuesta debe ser inmediato.
@@ -61,7 +61,7 @@ Se pueden clasificar los SO teniendo en cuenta la gestión que hacen del softwar
 
 ## Evolución histórica
 
-En general, podemos hablar de cuatro **generaciones **de sistemas operativos, relacionadas siempre con la evolución del hardware:
+En general, podemos hablar de cuatro **generaciones** de sistemas operativos, relacionadas siempre con la evolución del hardware:
 
 - Primera generación (1945-1955)
 
@@ -71,19 +71,17 @@ En general, podemos hablar de cuatro **generaciones **de sistemas operativos, re
 
 - Cuarta generación (1980-actualidad)
 
-Los primeros Sistemas Operativos se denominaban **monolíticos**. La característica fundamental de estos sistemas operativos es que su software básico era prácticamente imposible de modificar una vez creado e instalado en un sistema informático.
+Los primeros Sistemas Operativos se denominaban **monolíticos** . La característica fundamental de estos sistemas operativos es que su software básico era prácticamente imposible de modificar una vez creado e instalado en un sistema informático.
 
 ### Primera generación (1945-1955)
 
-En esta generación los ordenadores utilizaban las **válvulas de vacío **y tableros enchufables. Eran máquinas de gran tamaño de diseño único, programadas en lenguaje de máquina puro y complejas interconexiones con sus válvulas.
+En esta generación los ordenadores utilizaban las **válvulas de vacío** y tableros enchufables. Eran máquinas de gran tamaño de diseño único, programadas en lenguaje de máquina puro y complejas interconexiones con sus válvulas.
 
 Llegaron de la mano de diseños de Howard Aiken y Jon Von Neumann. Sus operaciones se reducían a cálculos y operaciones matemáticas previamente programadas y no poseían sistema operativo como tal (programadas a mano).
 
 ### Segunda generación (1955-1965)
 
->   Se produce la aparición de los **transistores **lo cual reduce el tamaño de
->   los ordenadores aumentando su eficiencia. En esta generación aparece el
->   **procesamiento por lotes **que constaba de tres fases:
+>   Se produce la aparición de los **transistores** lo cual reduce el tamaño de los ordenadores aumentando su eficiencia. En esta generación aparece el **procesamiento por lotes** que constaba de tres fases:
 
 1.  Se introducían datos en las tarjetas perforadas, cinta magnética o soportes
     magnéticas.
@@ -97,12 +95,12 @@ Llegaron de la mano de diseños de Howard Aiken y Jon Von Neumann. Sus operacion
 Estas aún grandes computadoras (solían ocupar una habitación) se usaban primordialmente para cálculos científicos y de ingeniería, como la resolución de ecuaciones diferenciales parciales. Generalmente se
 programaban en lenguaje FORTRAN o en lenguaje ensamblador.
 
-Aparecen los primeros sistemas operativos típicos como **FMS **(Fortran Monitor System) e **IBSYS**, el sistema operativo de IBM para la 7094
+Aparecen los primeros sistemas operativos típicos como **FMS** (Fortran Monitor System) e **IBSYS** , el sistema operativo de IBM para la 7094
 
 
 ###   Tercera generación (1965-1980)
 
-La aparición de los **circuitos integrados **y de la **multiprogramación **supuso toda una revolución.
+La aparición de los **circuitos integrados** y de la **multiprogramación** supuso toda una revolución.
 
 **Multiprogramación**
 
@@ -118,21 +116,21 @@ La aparición de los **circuitos integrados **y de la **multiprogramación **sup
 
 -   Más complejo
 
-Se redujo el tamaño y consumo de energía de los ordenadores gracias a la sustitución de transistores por **circuitos integrados**, aún más baratos, rápidos y fiables.
+Se redujo el tamaño y consumo de energía de los ordenadores gracias a la sustitución de transistores por **circuitos integrados** , aún más baratos, rápidos y fiables.
 
 En esta generación destaca el IBM 360 como una máquina capaz de realizar cualquier tipo de cálculo, con su sistema operativo denominado **OS/360**.
 
-MIT, Bell laboratories y General Electric favorecen el desarrollo de la “computadora de servicio publico” así como el Sistema Operativo para ella **MULTICS **(*Multiplexed information and computing service*)
+MIT, Bell laboratories y General Electric favorecen el desarrollo de la “computadora de servicio publico” así como el Sistema Operativo para ella **MULTICS** (*Multiplexed information and computing service*)
 
 Se produce un gran crecimiento de las **minicomputadoras**.
 
->   Ken Thompson, empezó a escribir un nuevo Sistema Operativo conocido como **UNICS **(*Uniplexed information and computing service*) su ortografía cambió más tarde por **UNIX**.
+>   Ken Thompson, empezó a escribir un nuevo Sistema Operativo conocido como **UNICS**(*Uniplexed information and computing service*) su ortografía cambió más tarde por **UNIX**.
 
 
 
 ###  Cuarta generación (1980-actualidad)
 
-Se produce la aparición de las **computadoras personales**. Se utilizan complejas técnicas de miniaturización de componentes electrónicos.
+Se produce la aparición de las **computadoras personales** . Se utilizan complejas técnicas de miniaturización de componentes electrónicos.
 
 Se produce la aparición de los sistemas operativos modernos que conocemos en la actualidad. Mucho más fáciles de utilizar y con la creación de interfaces gráficas para una mejor comunicación entre máquina y usuario.
 
@@ -140,21 +138,21 @@ Aparición de los primeros ordenadores personales (PC): Apple II (1978) e IBM PC
 
 La disponibilidad de una cada vez mayor potencia de cómputo, junto con una cada vez mayor potencia gráfica, y disponibilidad de discos de almacenamiento masivo en ordenadores personales, dio pie al crecimiento de la importante industria de software que conocemos hoy en día.
 
-Los sistemas operativos que cobran gran popularidad inicialmente en este período (abuelos de los actuales) son **MS-DOS **y **UNIX**:
+Los sistemas operativos que cobran gran popularidad inicialmente en este período (abuelos de los actuales) son **MS-DOS** y **UNIX**:
 
--   **MS-DOS **de Microsoft fue el primer sistema operativo creado para ordenadores personales en la década de los 80 y su sucesor fue Windows (inicialmente se ejecutaba encima de MS-DOS). Se trata de un sistema operativo grabado en un disco, de modo que se encontraba permanentemente activo y residente en memoria.
+-   **MS-DOS** de Microsoft fue el primer sistema operativo creado para ordenadores personales en la década de los 80 y su sucesor fue Windows (inicialmente se ejecutaba encima de MS-DOS). Se trata de un sistema operativo grabado en un disco, de modo que se encontraba permanentemente activo y residente en memoria.
 
--   **UNIX **dominaba las estaciones de trabajo y servidores en red, así como máquinas de alto rendimiento.
+-   **UNIX** dominaba las estaciones de trabajo y servidores en red, así como máquinas de alto rendimiento.
 
--   **MSDOS **fue creado como tal en 1981 después de que Microsoft comprara *QDOS* modificándolo y haciéndolo compatible con *IBM-PC*.
+-   **MSDOS** fue creado como tal en 1981 después de que Microsoft comprara *QDOS* modificándolo y haciéndolo compatible con *IBM-PC*.
 
--   En 1984 se lanzaba el primera ordenador Macintosh incluyendo su sistema operativo **MacOS**, cuyas características novedosas eran una GUI avanzada, multitarea y ratón.
+-   En 1984 se lanzaba el primera ordenador Macintosh incluyendo su sistema operativo **MacOS** , cuyas características novedosas eran una GUI avanzada, multitarea y ratón.
 
--   A mediados de los años 80 nace la primera versión de **Windows**, un mero gestor de ventanas que corre sobre MSDOS, pero no es hasta Windows 95 que se considera un SO separado. La familia siguió creciendo con Windows 98, NT, Me, 2000, XP, 7, 8 y 10.
+-   A mediados de los años 80 nace la primera versión de **Windows** , un mero gestor de ventanas que corre sobre MSDOS, pero no es hasta Windows 95 que se considera un SO separado. La familia siguió creciendo con Windows 98, NT, Me, 2000, XP, 7, 8 y 10.
 
--   Respecto a **Linux **nace en 1991 creado por Linus Towards como una versión mejorada de Unix con licencia **GNU**. Hoy ha evolucionado a un entorno gráfico con gestores de ventanas como KDE, GNOME así como distintas distribuciones que se han ido haciendo famosas (Ubuntu, Debian, Suse, Fedora, Mint…)
+-   Respecto a **Linux** nace en 1991 creado por Linus Towards como una versión mejorada de Unix con licencia **GNU** . Hoy ha evolucionado a un entorno gráfico con gestores de ventanas como KDE, GNOME así como distintas distribuciones que se han ido haciendo famosas (Ubuntu, Debian, Suse, Fedora, Mint…)
 
--   Entre 2003-2007 surgen los SO móviles: **iOS **y **Android**
+-   Entre 2003-2007 surgen los SO móviles: **iOS** y **Android**
 
 >   En esta generación aparecen las distintas variantes conocidas en la actualidad; los sistemas operativos **multiusuario**, los SO en **red**, SO **distribuidos**, SO móviles y SO en **tiempo real**.
 
@@ -185,7 +183,7 @@ Las partes de un SO se estructuran de la siguiente forma **jerárquica**:
 
 >   La comunicación entre los distintos niveles se realiza mediante las llamadas **interfaces**.
 
-Un mismo sistema operativo puede trabajar en  últiples plataformas hardware, por lo que debe poder adaptarse a cada una de ellas.	
+Un mismo sistema operativo puede trabajar en múltiples plataformas hardware, por lo que debe poder adaptarse a cada una de ellas.	
 
 Si dejamos al margen los antiguos sistemas operativos monolíticos, actualmente todos los sistemas operativos se organizan en **capas**.
 
@@ -194,13 +192,13 @@ En la actualidad la mayoría de los sistemas operativos son sistemas operativos 
 Estos sistemas operativos pueden funcionar en varias plataformas de hardware gracias a la abstracción de hardware que se hace (como Linux, Windows,
 Android)
 
-La **jerarquía o arquitectura **de los sistemas operativos (SO) que veremos en unidades posteriores puede verse de la siguiente forma ampliada:
+La **jerarquía o arquitectura** de los sistemas operativos (SO) que veremos en unidades posteriores puede verse de la siguiente forma ampliada:
 
 ![](media\arquitectura_so.jpg)
 
 
 
-Las **funciones **principales que realiza todo sistema operativo son las siguientes:
+Las **funciones** principales que realiza todo sistema operativo son las siguientes:
 
 1. **Control y ejecución de programas**
 
@@ -229,48 +227,48 @@ Las **funciones **principales que realiza todo sistema operativo son las siguien
 
 ## Conceptos SO
 
-Algunos **conceptos clave **usados por los Sistemas Operativos son:
+Algunos **conceptos clave** usados por los Sistemas Operativos son:
 
--   **Usuario: **Toda aquella persona que trabaja en el sistema.
--   **Sesión: **Periodo de tiempo durante el cual un usuario interactúa con el sistema.
+-   **Usuario:** Toda aquella persona que trabaja en el sistema.
+-   **Sesión:** Periodo de tiempo durante el cual un usuario interactúa con el sistema.
 
--   **Programa: **Código ejecutable. Se trata de un concepto estático.
+-   **Programa:** Código ejecutable. Se trata de un concepto estático.
 
--   **Proceso: **Programa en ejecución y en memoria. Concepto dinámico.
+-   **Proceso:** Programa en ejecución y en memoria. Concepto dinámico.
 
--   **Fichero: **Unidad lógica de almacenamiento de datos.
+-   **Fichero:** Unidad lógica de almacenamiento de datos.
 
--   **Programas del sistema: **Ofrecen un entorno proporcionado por el SO para el desarrollo y ejecución de programas.
+-   **Programas del sistema:** Ofrecen un entorno proporcionado por el SO para el desarrollo y ejecución de programas.
 
--   **Interfaz de usuario: **Permite dar instrucciones al SO a través de diversas formas.
+-   **Interfaz de usuario:** Permite dar instrucciones al SO a través de diversas formas.
 
 ### Servicios y procesos
 
-Para llevar a cabo las funciones descritas anteriormente un Sistema Operativo hace uso de un tipo de aplicaciones especiales denominadas **servicios **(o demonios) funcionando en segundo plano.
+Para llevar a cabo las funciones descritas anteriormente un Sistema Operativo hace uso de un tipo de aplicaciones especiales denominadas **servicios**(o demonios) funcionando en segundo plano.
 
->   Un **servicio **(o demonio) es un tipo de aplicación cargado por el sistema operativo que normalmente se ejecutan en **segundo plano **y que permiten llevar a cabo funciones básicas de éste.
+>   Un **servicio**(o demonio) es un tipo de aplicación cargado por el sistema operativo que normalmente se ejecutan en **segundo plano**y que permiten llevar a cabo funciones básicas de éste.
 
 Muchos de los **servicios** (también llamados demonios o *daemons *en Linux) son esenciales para el funcionamiento de muchas de las aplicaciones y del propio Sistema Operativo.
 
 Si estos programas, es decir, los servicios, no estuvieran ejecutándose, muchas aplicaciones no funcionarían o algo tan frecuente como el acceso a Internet no sería posible.
 
-Los **procesos **son otro importante concepto manejado por el sistema operativo, que veremos en la próximas unidades en profundidad:
+Los **procesos** son otro importante concepto manejado por el sistema operativo, que veremos en la próximas unidades en profundidad:
 
->   Un **proceso **son el conjunto de instrucciones de un programa que se encuentra en ejecución en ese momento (van a procesarse en la CPU)
+>   Un **proceso** son el conjunto de instrucciones de un programa que se encuentra en ejecución en ese momento (van a procesarse en la CPU)
 
 Los procesos son gestionados por el sistema operativo y están formados por:
 
--   Las **instrucciones **de un programa destinadas a ser ejecutadas por el microprocesador.
+-   Las **instrucciones** de un programa destinadas a ser ejecutadas por el microprocesador.
 
--   Su **estado de ejecución **en un momento dado, esto es, los valores de los registros de la unidad central de procesamiento para dicho programa.
+-   Su **estado de ejecución** en un momento dado, esto es, los valores de los registros de la unidad central de procesamiento para dicho programa.
 
 -   Su **memoria de trabajo**, es decir, la memoria que ha reservado y su contenido.
 
 ### Diferencias entre servicios y procesos
 
->   Un **proceso **es la instancia en memoria de un programa ejecutable (un archivo ejecutable **.exe **o binario) que se ejecuta. Una aplicación puede tener varios procesos que se ejecutan simultáneamente. Por ejemplo, algunos navegadores modernos como Google Chrome o Firefox, ejecutan varios procesos a la vez (cada uno de los cuales representa una pestaña).
+>   Un **proceso** es la instancia en memoria de un programa ejecutable (un archivo ejecutable **.exe **o binario) que se ejecuta. Una aplicación puede tener varios procesos que se ejecutan simultáneamente. Por ejemplo, algunos navegadores modernos como Google Chrome o Firefox, ejecutan varios procesos a la vez (cada uno de los cuales representa una pestaña).
 
->   Un **servicio **es también un proceso, pero que se ejecuta en segundo plano y no interactúa con nosotros de forma directa como un programa o aplicación. En sistemas Windows, los servicios casi siempre se ejecutan como una instancia del proceso **svchost**, también identificado como host de
+>   Un **servicio** es también un proceso, pero que se ejecuta en segundo plano y no interactúa con nosotros de forma directa como un programa o aplicación. En sistemas Windows, los servicios casi siempre se ejecutan como una instancia del proceso **svchost**, también identificado como host de
 >   servicio (En Linux *systemd*)
 
 ## Gestión de los recursos	
@@ -279,11 +277,11 @@ Los procesos son gestionados por el sistema operativo y están formados por:
 
 La parte del sistema operativo que gestiona la memoria se denomina **administrador de memoria**.
 
->   El **administrador de memoria **es una parte crítica del sistema operativo que se encarga de reservar espacio en la memoria para los nuevos procesos (programas o servicios) y liberarla cuando estos ya no se sigan utilizando así como el intercambio de datos entre memoria y disco duro.
+>   El **administrador de memoria** es una parte crítica del sistema operativo que se encarga de reservar espacio en la memoria para los nuevos procesos (programas o servicios) y liberarla cuando estos ya no se sigan utilizando así como el intercambio de datos entre memoria y disco duro.
 
-La gestión de la memoria es importante cuando trabajamos en sistemas operativos multitarea (cualquier SO moderno) ya que trabajan con varios **procesos **a la vez.
+La gestión de la memoria es importante cuando trabajamos en sistemas operativos multitarea (cualquier SO moderno) ya que trabajan con varios **procesos** a la vez.
 
-El **administrador de memoria **proporcionará por tanto protección y **uso compartido**, es decir, debe proporcionar un espacio de memoria para cada proceso que lo necesite y controlar que ningún otro proceso trabaje en zonas de memoria que no le correspondan produciendo colisiones o inconsistencias
+El **administrador de memoria **proporcionará por tanto protección y **uso compartido** , es decir, debe proporcionar un espacio de memoria para cada proceso que lo necesite y controlar que ningún otro proceso trabaje en zonas de memoria que no le correspondan produciendo colisiones o inconsistencias
 en los datos.
 
 Un error o colisión de zona de memoria provocará un fallo en cascada del SO provocando un cuelgue del sistema.
@@ -294,19 +292,19 @@ Un error o colisión de zona de memoria provocará un fallo en cascada del SO pr
 
 ### 2.  **Procesador**
 
->   Un **proceso **tal y como vimos anteriormente consiste en un programa en ejecución gestionado en memoria por el administrador de memoria y que se va a mandar a ejecutar al **procesador **o CPU.
+>   Un **proceso** tal y como vimos anteriormente consiste en un programa en ejecución gestionado en memoria por el administrador de memoria y que se va a mandar a ejecutar al **procesador** o CPU.
 
-Cualquier programa que se esté ejecutando en un ordenador se convierte en un proceso, ya que desde ese momento el programa, denominado **proceso**, se puede **ejecutar**, se pueda **detener **o se puede **bloquear**, entre otras muchas cosas.
+Cualquier programa que se esté ejecutando en un ordenador se convierte en un proceso, ya que desde ese momento el programa, denominado **proceso** , se puede **ejecutar** , se pueda **detener** o se puede **bloquear** , entre otras muchas cosas.
 
 Existen dos tipos de procesos:
 
--   **Procesos de usuario**: creados por cualquier usuario del sistema y que se ejecutan en modo usuario
+-   **Procesos de usuario** : creados por cualquier usuario del sistema y que se ejecutan en modo usuario
 
--   **Procesos del Sistema Operativo**: creados por el SO o sus servicios y que se ejecutan en modo privilegiado o modo kernel.
+-   **Procesos del Sistema Operativo** : creados por el SO o sus servicios y que se ejecutan en modo privilegiado o modo kernel.
 
-Durante la ejecución de un proceso, este **compite **con el resto de los procesos que se están ejecutando de forma concurrente en el sistema por el uso de los recursos hardware (ya sea la CPU o la gráfica)
+Durante la ejecución de un proceso, este **compite** con el resto de los procesos que se están ejecutando de forma concurrente en el sistema por el uso de los recursos hardware (ya sea la CPU o la gráfica)
 
-El reparto de los recursos del sistema entre los distintos procesos y su ejecución **concurrente **se conoce como **multiprogramación **y es gestionada en el **núcleo o kernel **del sistema operativo.
+El reparto de los recursos del sistema entre los distintos procesos y su ejecución **concurrente** se conoce como **multiprogramación** y es gestionada en el **núcleo o kernel** del sistema operativo.
 
 >   Un programa no es un proceso, sino que se convierte en tal en el momento en que se pone en **ejecución**. La aplicación WordPad, por ejemplo, cuando no se está ejecutando no deja de ser un archivo sin más. Y cuando se ejecuta, el archivo *WORDPAD.EXE *sigue estando almacenado donde estaba originalmente. Lo que ocurre es que al ejecutar el programa, las instrucciones necesarias	pasan a la memoria principal. En este momento, cuando al programa está en ejecución, cuando se convierte en proceso, pero no antes.
 
@@ -314,33 +312,33 @@ Cuantas más instrucciones sea capaz de procesar un procesador, mayor será la v
 
 ####	Núcleo o kernel del SO
 
->   La parte crítica de un sistema operativo encargada de gestionar los procesos entre sí se denomina **núcleo **o **kernel**.
+>   La parte crítica de un sistema operativo encargada de gestionar los procesos entre sí se denomina **núcleo** o **kernel**.
 
 El núcleo o kernel se encarga del manejo de las interrupciones, la asignación del trabajo al procesador y el proporcionar una vía de comunicación entre los distintos procesos.
 
-El núcleo tiene un submódulo denominado “**planificador**” el cual se encarga de asignar tiempo del procesador a los procesos, de acuerdo a una cierta política de planificación que varia de un sistema operativo a otro. El **administración de memoria **visto anteriormente también se controla desde el núcleo del SO.
+El núcleo tiene un submódulo denominado “**planificador**” el cual se encarga de asignar tiempo del procesador a los procesos, de acuerdo a una cierta política de planificación que varia de un sistema operativo a otro. El **administración de memoria** visto anteriormente también se controla desde el núcleo del SO.
 
 ### 3.  **Gestión E/S**
 
 >   La otra tarea fundamental de cualquier sistema operativo es la gestión de cualquier unidad periférica (ya sea de *entrada*, *salida*, *mixta* o de *comunicación*) que se conecte al ordenador o dispositivo.
 
-Recordemos de la unidad anterior, que la comunicación de los diferentes periféricos de E/S se lleva a cabo a nivel de hardware a través de los **chipsets **de la placa base, los cuales comunican dichos componentes con la CPU y la memoria a través de buses internos.
+Recordemos de la unidad anterior, que la comunicación de los diferentes periféricos de E/S se lleva a cabo a nivel de hardware a través de los **chipsets** de la placa base, los cuales comunican dichos componentes con la CPU y la memoria a través de buses internos.
 
->   El sistema operativo se encarga de atender todas las particularidades de los dispositivos de E/S como su velocidad de operación, una técnica es la salida es el uso de **spoolers, **también llamadas colas.
+>   El sistema operativo se encarga de atender todas las particularidades de los dispositivos de E/S como su velocidad de operación, una técnica es la salida es el uso de **spoolers,** también llamadas colas.
 
 Los datos de salida se almacenan de forma temporal en una cola situada en un dispositivo de almacenamiento masivo (**spool**) hasta que el dispositivo periférico requerido se encuentre libre, para evitar que el programa quede retenido porque el periférico no esta listo.
 
 #### Interfaces de usuario
 
->   Las **interfaces de usuario **o *shell *son el medio de comunicación entre  el usuario, el hardware y el software a través del SO. 
+>   Las **interfaces de usuario** o *shell* son el medio de comunicación entre  el usuario, el hardware y el software a través del SO. 
 
 Las interfaces se clasifican en:
 
--   **Interfaz tipo texto**. Si el SO es de tipo texto, todas las órdenes que el usuario introduzca y las respuestas que el SO dé se introducirán o visualizarán mediante cadenas de caracteres.
+-   **Interfaz tipo texto** . Si el SO es de tipo texto, todas las órdenes que el usuario introduzca y las respuestas que el SO dé se introducirán o visualizarán mediante cadenas de caracteres.
 
--   **Interfaz tipo gráfico**. Hoy en día, la mayoría de los sistemas operativos utiliza medios de comunicación entre máquina y ordenador de  tipo gráfico.
+-   **Interfaz tipo gráfico** . Hoy en día, la mayoría de los sistemas operativos utiliza medios de comunicación entre máquina y ordenador de  tipo gráfico.
 
--   **Interfaz mixta**. Hoy en día, la mayoría de los sistemas operativos utilizan ambas interfaces para comunicarse con el usuario.
+-   **Interfaz mixta** . Hoy en día, la mayoría de los sistemas operativos utilizan ambas interfaces para comunicarse con el usuario.
 
 ##   Modos de explotación	
 
@@ -401,5 +399,7 @@ Las interfaces se clasifican en:
 - **Tiempo compartido:**
 
   Cada proceso utilizará ciclos de la CPU de forma fragmentada hasta finalizar.
+
+
 
 
