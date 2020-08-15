@@ -2,18 +2,18 @@
 
 ## El software
 
->   El **software** es el conjunto de **instrucciones**y **programas**, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
+>   El **software** es el conjunto de **instrucciones** y **programas**, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
 
-Comúnmente se utiliza este término para referirse de una forma muy genérica a los programas de un dispositivo informático, la parte **lógica **de un ordenador.
+Comúnmente se utiliza este término para referirse de una forma muy genérica a los programas de un dispositivo informático, la parte **lógica** de un ordenador.
 
 ------
 
-Para que un ordenador funcione necesita información o **datos **con los que trabajar. Esta información es de varios tipos dependiendo de su función. El ordenador puede servir para procesar información en forma de datos, los cuales pueden ser textos, imágenes, datos de sensores, hojas de cálculo,
+Para que un ordenador funcione necesita información o **datos** con los que trabajar. Esta información es de varios tipos dependiendo de su función. El ordenador puede servir para procesar información en forma de datos, los cuales pueden ser textos, imágenes, datos de sensores, hojas de cálculo,
 tablas de una base datos, etc.
 
 1.  **Datos de entrada**: Los que se suministran al ordenador desde los periféricos de entrada (teclado, ratón, escáner) o soportes como disocs (HDDs, DVDs, etc). Forman parte de la primera fase del tratamiento de la información denominada **entrada**.
     
-2.  **Datos intermedios: **Son los que se obtienen en el tratamiento de la información denominada **proceso**.
+2.  **Datos intermedios:** Son los que se obtienen en el tratamiento de la información denominada **proceso**.
     
 3.  **Datos de salida**: se denominan también resultados del proceso de tratamiento: **salida**.
 
@@ -21,11 +21,11 @@ tablas de una base datos, etc.
 
 Para que los componentes electrónicos de un ordenador sean capaces de funcionar y realizar un proceso determinado, es necesario ejecutar un conjunto de órdenes o instrucciones.
 
->   Se denomina **programa **al conjunto de **instrucciones **ordenadas y adecuadas para llevar a cabo un determinado proceso.
+>   Se denomina **programa** al conjunto de **instrucciones** ordenadas y adecuadas para llevar a cabo un determinado proceso.
 
->   El **software básico **para hacer funcionar cualquier ordenador se denomina sistema operativo y es lo que estudiaremos en este módulo junto con diversos programas.
+>   El **software básico** para hacer funcionar cualquier ordenador se denomina sistema operativo y es lo que estudiaremos en este módulo junto con diversos programas.
 
->   El **sistema operativo **es el componente software de un sistema informático capaz de hacer que los **programas **(**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
+>   El **sistema operativo** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
 
 ------
 
@@ -43,7 +43,7 @@ El software se suele clasificar de forma típica en tres tipos según su funció
 
 #### Software del sistema (base):
 
->   El software de sistema también llamado **software de base **es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
+>   El software de sistema también llamado **software de base** es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
 
 Este software se divide en:
 
@@ -104,22 +104,21 @@ El software también se suele clasificar siguiendo el siguiente esquema:
 
 Para cada uno de estos tres tipos de software vistos anteriormente, es necesario distinguir entre software libre o software, dependiendo de las **licencias **y permisos para su uso:
 
--   **Software libre **es el que otorga libertad de uso, copia y distribución a los usuarios. Su código puede ser totalmente abierto o estar sometido a ciertas normas según la licencia asociada concreta a ese programa.
+-   **Software libre** es el que otorga libertad de uso, copia y distribución a los usuarios. Su código puede ser totalmente abierto o estar sometido a ciertas normas según la licencia asociada concreta a ese programa.
     
--   **Software de propietario **es aquel cuyas condiciones de uso, copia y  distribución están sometidas a normas o restricciones. Su código fuente es cerrado, es decir, no está disponible para el usuario (el propietario puede mostrarlo, pero esto no implica que pase a ser software libre en  cuanto a su uso).
+-   **Software de propietario** es aquel cuyas condiciones de uso, copia y  distribución están sometidas a normas o restricciones. Su código fuente es cerrado, es decir, no está disponible para el usuario (el propietario puede mostrarlo, pero esto no implica que pase a ser software libre en  cuanto a su uso).
 
 ![licencias](\media\licencias.jpg)
 
 
 
->   Una **licencia de software **es un contrato entre el licenciante (autor/titular de los derechos de explotación/distribuidor) y el licenciatario del programa informático (usuario consumidor/usuario
->   profesional o empresa), para utilizar el software cumpliendo una serie de términos y condiciones establecidas en sus cláusulas.
+>   Una **licencia de software** es un contrato entre el licenciante (autor/titular de los derechos de explotación/distribuidor) y el licenciatario del programa informático (usuario consumidor/usuario profesional o empresa), para utilizar el software cumpliendo una serie de términos y condiciones establecidas en sus cláusulas.
 
-Cuando compramos o bajamos de Internet un programa, al instalarlo solemos aceptar sin leer (*mala costumbre*) un contrato que especifica el tipo de **Licencia **de uso del software, en inglés *EULA *o *End User License Agreement*: licencia por la cual el uso de un producto sólo está permitido para un único usuario (el comprador). Es un acuerdo unilateral puesto que el usuario no tiene más opción que aceptar o rechazar el contenido del mismo.
+Cuando compramos o bajamos de Internet un programa, al instalarlo solemos aceptar sin leer (*mala costumbre*) un contrato que especifica el tipo de **Licencia** de uso del software, en inglés *EULA *o *End User License Agreement*: licencia por la cual el uso de un producto sólo está permitido para un único usuario (el comprador). Es un acuerdo unilateral puesto que el usuario no tiene más opción que aceptar o rechazar el contenido del mismo.
 
 ------
 
-Aunque se confunden, software de **código abierto **y el **software libre **no son exactamente lo mismo debido a diferencias sutiles de concepto.
+Aunque se confunden, software de **código abierto** y el **software libre** no son exactamente lo mismo debido a diferencias sutiles de concepto.
 
 #### Software libre (GNU)
 
@@ -135,9 +134,9 @@ Se fundamenta en la moral y exige la libertad absoluta del software. Cuatro libe
     
 4.  La libertad de mejorar el programa y hacer públicas las mejoras a los demás, de modo que toda la comunidad se beneficie (libertad 3)
 
->   **El software libre no referencia a que sea gratis **(de hecho no siempre lo es)
+>   **El software libre no referencia a que sea gratis** (de hecho no siempre lo es)
 
-Aunque se confunden, software de **código abierto **y el **software libre**no son exactamente lo mismo debido a diferencias sutiles de concepto:
+Aunque se confunden, software de **código abierto** y el **software libre** no son exactamente lo mismo debido a diferencias sutiles de concepto:
 
 #### El software de código abierto (Open Source):
 
@@ -166,7 +165,7 @@ Tipos de licencias de **software propietario**:
 
 Algunos tipos de licencias de **software libre**:
 
--   **Licencias GPL (GNU General Public License). **Es una licencia que permite a su desarrollador conservar sus derechos como autor, pero permitiendo su libre distribución modificación y uso con una serie de restricciones:
+-   **Licencias GPL (GNU General Public License).** Es una licencia que permite a su desarrollador conservar sus derechos como autor, pero permitiendo su libre distribución modificación y uso con una serie de restricciones:
     
     -   El nuevo software o modificación debe tener la misma licencia.
 
@@ -176,7 +175,7 @@ Algunos tipos de licencias de **software libre**:
     -   Totalmente gratuito para el usuario (salvo gastos de copia o
     distribución)
     
--   **Licencias BSD (Berkeley Software Distribution). **Es un tipo de licencia conocida por ser menos “restrictiva” lo que permite que desarrolladores puedan modificar, distribuir e incluso vender el software derivado.
+-   **Licencias BSD (Berkeley Software Distribution).** Es un tipo de licencia conocida por ser menos “restrictiva” lo que permite que desarrolladores puedan modificar, distribuir e incluso vender el software derivado.
 
 -   **Licencias Creative Commons**: Una de las más conocidas a nivel internacional, esta licencia posibilita un modelo legal de distribución y uso de contenidos basada en 4 condiciones principales que pueden ser combinadas para hacer licencias mixtas combinando características:
     
@@ -186,7 +185,7 @@ Algunos tipos de licencias de **software libre**:
     
 -   **No Derivadas**.- En este caso podemos copiar, distribuir, exhibir y representar copias literales de la obra pero no producir obras derivadas.
     
--   **Compartir Igual.- **El usuario tiene el derecho de distribuir obras derivadas pero siempre con una licencia idéntica a la de la obra original.
+-   **Compartir Igual.-** El usuario tiene el derecho de distribuir obras derivadas pero siempre con una licencia idéntica a la de la obra original.
     
 -   **Licencias MIT**: Licencia de Instituto Tecnológico de Massachusetts. Es una licencia con casi ninguna limitación de uso o modificación y que no tiene restricción en el uso de software pudiendo tener variantes privativas del mismo. Software libre no significa *no comercial*.
     
@@ -204,3 +203,5 @@ Algunos tipos de licencias de **software libre**:
 |---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | **Freeware** Uso gratuito No se puede modificar                                                                           | **Shareware** Se prueba y luego se paga No se puede modificar                        |
 | **Dominio público** Software sin licencia. Se permite uso, copia, modificación o redistribución con o sin fines de lucro. |   
+
+
