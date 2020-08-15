@@ -1,0 +1,19 @@
+title: Your awesome title
+lang: en
+description: Write an awesome description for your new site here
+
+remote_theme: rundocs/jekyll-rtd-theme # rundocs/jekyll-theme-docsify
+
+edit: true
+addons_branch: true
+
+addons:
+  - github
+  - plugins
+  - analytics
+
+copyright:
+  revision: true
+
+readme_index:
+  with_frontmatter: true
