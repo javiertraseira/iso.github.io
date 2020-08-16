@@ -2,12 +2,9 @@
 
 ## El software
 
-```
-El **software** es el conjunto de **instrucciones** y **programas**, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
-```
 
 ```note
-El **software** es el conjunto de **instrucciones** y **programas**, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
+El software es el conjunto de instrucciones y programas, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
 ```
 
 >   
@@ -51,7 +48,9 @@ El software se suele clasificar de forma típica en tres tipos según su funció
 
 #### Software del sistema (base):
 
->   El software de sistema también llamado **software de base** es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
+```note
+El software de sistema también llamado software de base es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
+```
 
 Este software se divide en:
 
@@ -71,7 +70,9 @@ Este software se divide en:
 
 #### Software de programación:
 
->   El software de programación es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
+```note
+El software de programación es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
+```
 
 Este tipo de software incluye principalmente:
 
@@ -87,7 +88,9 @@ Este tipo de software incluye principalmente:
 
 #### Software de aplicación:
 
->   El software de aplicación son los programas diseñados para los usuarios para la realización de tareas específicas en los ordenadores o dispositivos para los que han sido diseñados.
+```note
+El software de aplicación son los programas diseñados para los usuarios para la realización de tareas específicas en los ordenadores o dispositivos para los que han sido diseñados.
+```
 
 >   Este software se podría dividir en:
 
@@ -150,7 +153,9 @@ Aunque se confunden, software de **código abierto** y el **software libre** no 
 
 Trata de suavizar las condiciones del GNU para facilitar su uso por las compañías.
 
->   El Open Source o código abierto, es la expresión con la que se conoce al software distribuido y desarrollado libremente.
+```note
+El Open Source o código abierto, es la expresión con la que se conoce al software distribuido y desarrollado libremente.
+```
 
 Es un movimiento más ‘**pragmático**’, que se enfoca más en los beneficios prácticos como acceso al código fuente que en aspectos éticos o de libertad que son tan relevantes en el Software Libre.
 
@@ -183,17 +188,17 @@ Algunos tipos de licencias de **software libre**:
     -   Totalmente gratuito para el usuario (salvo gastos de copia o
     distribución)
     
--   **Licencias BSD (Berkeley Software Distribution).** Es un tipo de licencia conocida por ser menos “restrictiva” lo que permite que desarrolladores puedan modificar, distribuir e incluso vender el software derivado.
+-   **Licencias BSD (Berkeley Software Distribution):** Es un tipo de licencia conocida por ser menos “restrictiva” lo que permite que desarrolladores puedan modificar, distribuir e incluso vender el software derivado.
 
 -   **Licencias Creative Commons**: Una de las más conocidas a nivel internacional, esta licencia posibilita un modelo legal de distribución y uso de contenidos basada en 4 condiciones principales que pueden ser combinadas para hacer licencias mixtas combinando características:
     
-    -   **Atribución**.- Se conceden derechos de copia, distribución, exhibición y derivación siempre y cuando se reconozca y cite la obra de la forma especificada por el autor o el licenciante.
+-   **Atribución**: Se conceden derechos de copia, distribución, exhibición y derivación siempre y cuando se reconozca y cite la obra de la forma especificada por el autor o el licenciante.
     
--   **No Comercial**.- Se puede copiar, distribuir, exhibir y representar la obra y hacer obras derivadas pero sin fines comerciales.
+-   **No Comercial**: Se puede copiar, distribuir, exhibir y representar la obra y hacer obras derivadas pero sin fines comerciales.
     
--   **No Derivadas**.- En este caso podemos copiar, distribuir, exhibir y representar copias literales de la obra pero no producir obras derivadas.
+-   **No Derivadas**: En este caso podemos copiar, distribuir, exhibir y representar copias literales de la obra pero no producir obras derivadas.
     
--   **Compartir Igual.-** El usuario tiene el derecho de distribuir obras derivadas pero siempre con una licencia idéntica a la de la obra original.
+-   **Compartir Igual**: El usuario tiene el derecho de distribuir obras derivadas pero siempre con una licencia idéntica a la de la obra original.
     
 -   **Licencias MIT**: Licencia de Instituto Tecnológico de Massachusetts. Es una licencia con casi ninguna limitación de uso o modificación y que no tiene restricción en el uso de software pudiendo tener variantes privativas del mismo. Software libre no significa *no comercial*.
     
