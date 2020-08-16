@@ -17,11 +17,11 @@ tablas de una base datos, etc.
 
 Para que los componentes electrónicos de un ordenador sean capaces de funcionar y realizar un proceso determinado, es necesario ejecutar un conjunto de órdenes o instrucciones.
 
-> 💡 Se denomina **programa** al conjunto de **instrucciones** ordenadas y adecuadas para llevar a cabo un determinado proceso.
+> 📌 Se denomina **programa** al conjunto de **instrucciones** ordenadas y adecuadas para llevar a cabo un determinado proceso.
 
-> 💡 El **software básico** para hacer funcionar cualquier ordenador se denomina sistema operativo y es lo que estudiaremos en este módulo junto con diversos programas.
+> 📌 El **software básico** para hacer funcionar cualquier ordenador se denomina sistema operativo y es lo que estudiaremos en este módulo junto con diversos programas.
 
-> 💡 El **sistema operativo** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
+> 📌 El **sistema operativo** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
 
 
 ## Clasificación del software
@@ -111,9 +111,7 @@ Aunque se confunden, software de **código abierto** y el **software libre** no 
 
 ### Software libre (GNU)
 
-```note
-El proyecto GNU fue iniciado en 1984 por Richard Stallman y fundó la Free Software Foundation sin ánimo de lucro.
-```
+💡 El proyecto **GNU** fue iniciado en 1984 por Richard Stallman y fundó la Free Software Foundation sin ánimo de lucro.
 
 Se fundamenta en la moral y exige la libertad absoluta del software. Cuatro libertades del software libre:
 
@@ -133,9 +131,7 @@ Aunque se confunden, software de **código abierto** y el **software libre** no 
 
 Trata de suavizar las condiciones del GNU para facilitar su uso por las compañías.
 
-```note
-El Open Source o código abierto, es la expresión con la que se conoce al software distribuido y desarrollado libremente.
-```
+💡 El Open Source o código abierto, es la expresión con la que se conoce al software distribuido y desarrollado libremente.
 
 Es un movimiento más ‘**pragmático**’, que se enfoca más en los beneficios prácticos como acceso al código fuente que en aspectos éticos o de libertad que son tan relevantes en el Software Libre.
 
