@@ -2,7 +2,7 @@
 
 ## El software
 
->  :bulb: El **software** es el conjunto de instrucciones y programas, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
+> 💡 El **software** es el conjunto de instrucciones y programas, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
 
 Comúnmente se utiliza este término para referirse de una forma muy genérica a los programas de un dispositivo informático, la parte **lógica** de un ordenador.
 
@@ -17,11 +17,11 @@ tablas de una base datos, etc.
 
 Para que los componentes electrónicos de un ordenador sean capaces de funcionar y realizar un proceso determinado, es necesario ejecutar un conjunto de órdenes o instrucciones.
 
-> :bulb: Se denomina **programa** al conjunto de **instrucciones** ordenadas y adecuadas para llevar a cabo un determinado proceso.
+> 💡 Se denomina **programa** al conjunto de **instrucciones** ordenadas y adecuadas para llevar a cabo un determinado proceso.
 
-> :bulb: El **software básico** para hacer funcionar cualquier ordenador se denomina sistema operativo y es lo que estudiaremos en este módulo junto con diversos programas.
+> 💡 El **software básico** para hacer funcionar cualquier ordenador se denomina sistema operativo y es lo que estudiaremos en este módulo junto con diversos programas.
 
-> :bulb: El **sistema operativo** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
+> 💡 El **sistema operativo** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
 
 
 ## Clasificación del software
@@ -37,7 +37,7 @@ El software se suele clasificar de forma típica en tres tipos según su funció
 
 ### Software del sistema (base)
 
->  :bulb: El software de sistema también llamado software de base es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
+>  💡 El software de sistema también llamado software de base es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
 
 Este software se divide en:
 
@@ -55,7 +55,7 @@ Este software se divide en:
 
 ### Software de programación
 
-> :bulb: El software de programación es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
+> 💡 El software de programación es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
 
 Este tipo de software incluye principalmente:
 
@@ -70,7 +70,7 @@ Este tipo de software incluye principalmente:
 
 ### Software de aplicación
 
->  :bulb: El **software de aplicación** son los programas diseñados para los usuarios para la realización de tareas específicas en los ordenadores o dispositivos para los que han sido diseñados.
+>  💡 El **software de aplicación** son los programas diseñados para los usuarios para la realización de tareas específicas en los ordenadores o dispositivos para los que han sido diseñados.
 
 Este software se podría dividir en:
 
