@@ -1,9 +1,3 @@
----
-layout: default
-title: Demo Pages Index
-nav_order: 2
----
-
 # UT1.2: Clasificación, evolución y funciones de un SO
 
 
