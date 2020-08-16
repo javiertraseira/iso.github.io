@@ -2,11 +2,7 @@
 
 ## El software
 
-```note
-El software es el conjunto de instrucciones y programas, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
-```
-
->   
+>  :bulb: El **software** es el conjunto de instrucciones y programas, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
 
 Comúnmente se utiliza este término para referirse de una forma muy genérica a los programas de un dispositivo informático, la parte **lógica** de un ordenador.
 
@@ -41,9 +37,7 @@ El software se suele clasificar de forma típica en tres tipos según su funció
 
 ### Software del sistema (base)
 
-```note
-El software de sistema también llamado software de base es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
-```
+>  :bulb: El software de sistema también llamado software de base es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
 
 Este software se divide en:
 
@@ -61,9 +55,7 @@ Este software se divide en:
 
 ### Software de programación
 
-```note
-El software de programación es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
-```
+> :bulb: El software de programación es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
 
 Este tipo de software incluye principalmente:
 
@@ -78,9 +70,7 @@ Este tipo de software incluye principalmente:
 
 ### Software de aplicación
 
-```note
-El software de aplicación son los programas diseñados para los usuarios para la realización de tareas específicas en los ordenadores o dispositivos para los que han sido diseñados.
-```
+>  :bulb: El **software de aplicación** son los programas diseñados para los usuarios para la realización de tareas específicas en los ordenadores o dispositivos para los que han sido diseñados.
 
 Este software se podría dividir en:
 
