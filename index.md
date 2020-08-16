@@ -2,4 +2,4 @@
 
 Contenido del curso 19-20
 
-{% include list.liquid %}
+<!--- {% include list.liquid %} --> 
