@@ -4,15 +4,15 @@
 
 - **Nivel 0** - Nivel de Lógica Digital. Se corresponde con el hardware real de la máquina (dispositivos y circuitos electrónicos).
 
-- **Nivel 1** - Microprogramación. Son los comandos que intercambian entre sí los circuitos electrónicos. En este nivel, se encuentran los microprogramas, cuya tarea consiste en interpretar las instrucciones de nivel superior.
+- **Nivel 1**: Microprogramación. Son los comandos que intercambian entre sí los circuitos electrónicos. En este nivel, se encuentran los microprogramas, cuya tarea consiste en interpretar las instrucciones de nivel superior.
 
-- **Nivel 2** - Lenguaje máquina. Es el nivel inferior accesible por el usuario y se corresponde con el conjunto de instrucciones que forman el lenguaje directamente interpretable por el hardware.
+- **Nivel 2**: Lenguaje máquina. Es el nivel inferior accesible por el usuario y se corresponde con el conjunto de instrucciones que forman el lenguaje directamente interpretable por el hardware.
 
-- **Nivel 3** - Sistema operativo. Es el conjunto de programas que facilitan la gestión de los recursos del sistema. De esta manera, se crea un entorno favorable para que el usuario interaccione con los niveles inferiores de la máquina.
+- **Nivel 3**: Sistema operativo. Es el conjunto de programas que facilitan la gestión de los recursos del sistema. De esta manera, se crea un entorno favorable para que el usuario interaccione con los niveles inferiores de la máquina.
 
-- **Nivel 4** - Lenguajes de alto nivel. Son lenguajes de programación con alta abstracción del hardware. El programador encuentra un entorno amigable para la codificación de algoritmos.
+- **Nivel 4**: Lenguajes de alto nivel. Son lenguajes de programación con alta abstracción del hardware. El programador encuentra un entorno amigable para la codificación de algoritmos.
 
-- **Nivel 5 **- Nivel de aplicación. Es el nivel más alejado de la realidad física en el cual el usuario no tiene en cuenta los niveles inferiores.
+- **Nivel 5**: Nivel de aplicación. Es el nivel más alejado de la realidad física en el cual el usuario no tiene en cuenta los niveles inferiores.
 
 Tal y como hemos visto para un SO es crítico la **protección de recursos**, para evitar que un usuario acceda a recursos para los que no está autorizado.
 
@@ -28,7 +28,7 @@ Para que la protección de un SO sea posible, el sistema informático debe ser c
 
 Los SO pueden tener las siguientes organizaciones (llamada también arquitectura o modelo) para satisfacer las necesidades que de ellos se quieren obtener:
 
-![Modelos_SO](\media\Modelos_SO.png)
+![Modelos_SO](media/Modelos_SO.png)
 
 
 ### 1. Sistemas monolíticos
@@ -103,16 +103,13 @@ El SO se construye en capas de niveles jerárquicos, cada uno de los cuales apro
 
 ### 5. Núcleo híbrido	
 
-- Este tipo de arquitectura consiste básicamente en un esquema de micronúcleo que incluye algo de código complementario para hacerlo más rápido, aunque buena parte de las funciones del sistema
-  operativo siguen ejecutándose en modo usuario.
+- Este tipo de arquitectura consiste básicamente en un esquema de micronúcleo que incluye algo de código complementario para hacerlo más rápido, aunque buena parte de las funciones del sistema operativo siguen ejecutándose en modo usuario.
 
-  Se trata de una solución de compromiso que han adoptado muchos de los sistemas operativos
-
-  modernos como Windows o Mac.
+  Se trata de una solución de compromiso que han adoptado muchos de los sistemas operativos modernos como Windows o Mac.
 
   Ejemplos:
 
-  -   Versiones escritorio de **Windows **a partir de XP
+  - Versiones escritorio de **Windows **a partir de XP
 
   - Mac **OSX**.
   
@@ -120,4 +117,4 @@ El SO se construye en capas de niveles jerárquicos, cada uno de los cuales apro
 
 ##   Comparativa	
 
-![](\media\arquitectura_winvslinux.png)
+![](media/arquitectura_winvslinux.png)
