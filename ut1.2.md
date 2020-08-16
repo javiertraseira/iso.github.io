@@ -3,7 +3,7 @@
 
 ## Sistema Operativo
 
->   El **Sistema Operativo (SO)** es el software básico de cualquier ordenador o computadora. Este software gestiona los recursos hardware del sistema informático y proporciona una base para la creación y ejecución del software de diferentes aplicaciones e interacción con el usuario.
+> 💡 El **Sistema Operativo (SO)** es el software básico de cualquier ordenador o computadora. Este software gestiona los recursos hardware del sistema informático y proporciona una base para la creación y ejecución del software de diferentes aplicaciones e interacción con el usuario.
 
 Gracias al Sistema Operativo, el hardware se identifica, se reconoce y el Sistema Informático empieza a funcionar.
 
@@ -81,7 +81,7 @@ Llegaron de la mano de diseños de Howard Aiken y Jon Von Neumann. Sus operacion
 
 ### Segunda generación (1955-1965)
 
->   Se produce la aparición de los **transistores** lo cual reduce el tamaño de los ordenadores aumentando su eficiencia. En esta generación aparece el **procesamiento por lotes** que constaba de tres fases:
+Se produce la aparición de los **transistores** lo cual reduce el tamaño de los ordenadores aumentando su eficiencia. En esta generación aparece el **procesamiento por lotes** que constaba de tres fases:
 
 1.  Se introducían datos en las tarjetas perforadas, cinta magnética o soportes
     magnéticas.
@@ -92,11 +92,9 @@ Llegaron de la mano de diseños de Howard Aiken y Jon Von Neumann. Sus operacion
 3.  Se lleva ese soporte a otro distinto a la computadora para la generación de
     los resultados.
 
-Estas aún grandes computadoras (solían ocupar una habitación) se usaban primordialmente para cálculos científicos y de ingeniería, como la resolución de ecuaciones diferenciales parciales. Generalmente se
-programaban en lenguaje FORTRAN o en lenguaje ensamblador.
+Estas aún grandes computadoras (solían ocupar una habitación) se usaban primordialmente para cálculos científicos y de ingeniería, como la resolución de ecuaciones diferenciales parciales. Generalmente se programaban en lenguaje FORTRAN o en lenguaje ensamblador.
 
 Aparecen los primeros sistemas operativos típicos como **FMS** (Fortran Monitor System) e **IBSYS** , el sistema operativo de IBM para la 7094
-
 
 ###   Tercera generación (1965-1980)
 
@@ -124,7 +122,7 @@ MIT, Bell laboratories y General Electric favorecen el desarrollo de la “compu
 
 Se produce un gran crecimiento de las **minicomputadoras**.
 
->   Ken Thompson, empezó a escribir un nuevo Sistema Operativo conocido como **UNICS**(*Uniplexed information and computing service*) su ortografía cambió más tarde por **UNIX**.
+>  🔔 Ken Thompson, empezó a escribir un nuevo Sistema Operativo conocido como **UNICS**(*Uniplexed information and computing service*) su ortografía cambió más tarde por **UNIX**.
 
 
 
@@ -154,7 +152,7 @@ Los sistemas operativos que cobran gran popularidad inicialmente en este períod
 
 -   Entre 2003-2007 surgen los SO móviles: **iOS** y **Android**
 
->   En esta generación aparecen las distintas variantes conocidas en la actualidad; los sistemas operativos **multiusuario**, los SO en **red**, SO **distribuidos**, SO móviles y SO en **tiempo real**.
+> 📌 En esta generación aparecen las distintas variantes conocidas en la actualidad; los sistemas operativos **multiusuario**, los SO en **red**, SO **distribuidos**, SO móviles y SO en **tiempo real**.
 
 ### Cuadro resumen evolución histórica
 
@@ -171,7 +169,7 @@ Evolución histórica
 
 ## Funciones y arquitectura
 
->   El fin fundamental de todo Sistema Operativo es coordinar la utilización que se hace del hardware, dependiendo de los programas o aplicaciones que se estén utilizando.
+> 📌 El fin fundamental de todo Sistema Operativo es coordinar la utilización que se hace del hardware, dependiendo de los programas o aplicaciones que se estén utilizando.
 
 Las partes de un SO se estructuran de la siguiente forma **jerárquica**:
 
@@ -181,7 +179,7 @@ Las partes de un SO se estructuran de la siguiente forma **jerárquica**:
 
 - Hardware
 
->   La comunicación entre los distintos niveles se realiza mediante las llamadas **interfaces**.
+> 🔔 La comunicación entre los distintos niveles se realiza mediante las llamadas **interfaces**.
 
 Un mismo sistema operativo puede trabajar en múltiples plataformas hardware, por lo que debe poder adaptarse a cada una de ellas.	
 
@@ -246,7 +244,7 @@ Algunos **conceptos clave** usados por los Sistemas Operativos son:
 
 Para llevar a cabo las funciones descritas anteriormente un Sistema Operativo hace uso de un tipo de aplicaciones especiales denominadas **servicios**(o demonios) funcionando en segundo plano.
 
->   Un **servicio**(o demonio) es un tipo de aplicación cargado por el sistema operativo que normalmente se ejecutan en **segundo plano**y que permiten llevar a cabo funciones básicas de éste.
+>  💡 Un **servicio**(o demonio) es un tipo de aplicación cargado por el sistema operativo que normalmente se ejecutan en **segundo plano**y que permiten llevar a cabo funciones básicas de éste.
 
 Muchos de los **servicios** (también llamados demonios o *daemons *en Linux) son esenciales para el funcionamiento de muchas de las aplicaciones y del propio Sistema Operativo.
 
@@ -254,7 +252,7 @@ Si estos programas, es decir, los servicios, no estuvieran ejecutándose, muchas
 
 Los **procesos** son otro importante concepto manejado por el sistema operativo, que veremos en la próximas unidades en profundidad:
 
->   Un **proceso** son el conjunto de instrucciones de un programa que se encuentra en ejecución en ese momento (van a procesarse en la CPU)
+> 💡 Un **proceso** son el conjunto de instrucciones de un programa que se encuentra en ejecución en ese momento (van a procesarse en la CPU)
 
 Los procesos son gestionados por el sistema operativo y están formados por:
 
@@ -266,9 +264,9 @@ Los procesos son gestionados por el sistema operativo y están formados por:
 
 ### Diferencias entre servicios y procesos
 
->   Un **proceso** es la instancia en memoria de un programa ejecutable (un archivo ejecutable **.exe **o binario) que se ejecuta. Una aplicación puede tener varios procesos que se ejecutan simultáneamente. Por ejemplo, algunos navegadores modernos como Google Chrome o Firefox, ejecutan varios procesos a la vez (cada uno de los cuales representa una pestaña).
+>  📌 Un **proceso** es la instancia en memoria de un programa ejecutable (un archivo ejecutable **.exe** o binario) que se ejecuta. Una aplicación puede tener varios procesos que se ejecutan simultáneamente. Por ejemplo, algunos navegadores modernos como Google Chrome o Firefox, ejecutan varios procesos a la vez (cada uno de los cuales representa una pestaña).
 
->   Un **servicio** es también un proceso, pero que se ejecuta en segundo plano y no interactúa con nosotros de forma directa como un programa o aplicación. En sistemas Windows, los servicios casi siempre se ejecutan como una instancia del proceso **svchost**, también identificado como host de
+>  📌 Un **servicio** es también un proceso, pero que se ejecuta en segundo plano y no interactúa con nosotros de forma directa como un programa o aplicación. En sistemas Windows, los servicios casi siempre se ejecutan como una instancia del proceso **svchost**, también identificado como host de
 >   servicio (En Linux *systemd*)
 
 ## Gestión de los recursos	
@@ -277,7 +275,7 @@ Los procesos son gestionados por el sistema operativo y están formados por:
 
 La parte del sistema operativo que gestiona la memoria se denomina **administrador de memoria**.
 
->   El **administrador de memoria** es una parte crítica del sistema operativo que se encarga de reservar espacio en la memoria para los nuevos procesos (programas o servicios) y liberarla cuando estos ya no se sigan utilizando así como el intercambio de datos entre memoria y disco duro.
+> 💡  El **administrador de memoria** es una parte crítica del sistema operativo que se encarga de reservar espacio en la memoria para los nuevos procesos (programas o servicios) y liberarla cuando estos ya no se sigan utilizando así como el intercambio de datos entre memoria y disco duro.
 
 La gestión de la memoria es importante cuando trabajamos en sistemas operativos multitarea (cualquier SO moderno) ya que trabajan con varios **procesos** a la vez.
 
@@ -286,13 +284,12 @@ en los datos.
 
 Un error o colisión de zona de memoria provocará un fallo en cascada del SO provocando un cuelgue del sistema.
 
->   Por ejemplo, imagina un sistema de control de temperatura de una habitación con dos procesos. Uno de ellos se encarga de leer la temperatura de un sensor; el otro, a partir de dicha temperatura y del valor deseado, controla un generador de frío/calor. En función de estas condiciones, el primer
->   proceso leerá la temperatura y la depositará en una posición de la memoria a la que el segundo proceso deberá tener también acceso.
+>   Por ejemplo, imagina un sistema de control de temperatura de una habitación con dos procesos. Uno de ellos se encarga de leer la temperatura de un sensor; el otro, a partir de dicha temperatura y del valor deseado, controla un generador de frío/calor. En función de estas condiciones, el primer proceso leerá la temperatura y la depositará en una posición de la memoria a la que el segundo proceso deberá tener también acceso.
 
 
 ### 2.  **Procesador**
 
->   Un **proceso** tal y como vimos anteriormente consiste en un programa en ejecución gestionado en memoria por el administrador de memoria y que se va a mandar a ejecutar al **procesador** o CPU.
+> 💡 Un **proceso** tal y como vimos anteriormente consiste en un programa en ejecución gestionado en memoria por el administrador de memoria y que se va a mandar a ejecutar al **procesador** o CPU.
 
 Cualquier programa que se esté ejecutando en un ordenador se convierte en un proceso, ya que desde ese momento el programa, denominado **proceso** , se puede **ejecutar** , se pueda **detener** o se puede **bloquear** , entre otras muchas cosas.
 
@@ -312,7 +309,7 @@ Cuantas más instrucciones sea capaz de procesar un procesador, mayor será la v
 
 ####	Núcleo o kernel del SO
 
->   La parte crítica de un sistema operativo encargada de gestionar los procesos entre sí se denomina **núcleo** o **kernel**.
+>  🔔 La parte crítica de un sistema operativo encargada de gestionar los procesos entre sí se denomina **núcleo** o **kernel**.
 
 El núcleo o kernel se encarga del manejo de las interrupciones, la asignación del trabajo al procesador y el proporcionar una vía de comunicación entre los distintos procesos.
 
@@ -320,17 +317,17 @@ El núcleo tiene un submódulo denominado “**planificador**” el cual se enca
 
 ### 3.  **Gestión E/S**
 
->   La otra tarea fundamental de cualquier sistema operativo es la gestión de cualquier unidad periférica (ya sea de *entrada*, *salida*, *mixta* o de *comunicación*) que se conecte al ordenador o dispositivo.
+> 💡 La otra tarea fundamental de cualquier sistema operativo es la gestión de cualquier unidad periférica (ya sea de *entrada*, *salida*, *mixta* o de *comunicación*) que se conecte al ordenador o dispositivo.
 
 Recordemos de la unidad anterior, que la comunicación de los diferentes periféricos de E/S se lleva a cabo a nivel de hardware a través de los **chipsets** de la placa base, los cuales comunican dichos componentes con la CPU y la memoria a través de buses internos.
 
->   El sistema operativo se encarga de atender todas las particularidades de los dispositivos de E/S como su velocidad de operación, una técnica es la salida es el uso de **spoolers,** también llamadas colas.
+>  📌 El sistema operativo se encarga de atender todas las particularidades de los dispositivos de E/S como su velocidad de operación, una técnica es la salida es el uso de **spoolers,** también llamadas colas.
 
 Los datos de salida se almacenan de forma temporal en una cola situada en un dispositivo de almacenamiento masivo (**spool**) hasta que el dispositivo periférico requerido se encuentre libre, para evitar que el programa quede retenido porque el periférico no esta listo.
 
 #### Interfaces de usuario
 
->   Las **interfaces de usuario** o *shell* son el medio de comunicación entre  el usuario, el hardware y el software a través del SO. 
+>  💡 Las **interfaces de usuario** o *shell* son el medio de comunicación entre  el usuario, el hardware y el software a través del SO. 
 
 Las interfaces se clasifican en:
 
@@ -384,20 +381,16 @@ Las interfaces se clasifican en:
 
   Todo aquel ordenador que tenga dos o más procesadores (dual core) .
 
-  1.  **Multiproceso simétrico**: El SO utilizará la potencia de los
-      procesadores de igual forma.
+  1.  **Multiproceso simétrico**: El SO utilizará la potencia de los procesadores de igual forma.
 
-  2.  **Multiproceso asimétrico**: El SO repartirá las tareas que esté
-      realizando cada procesador de la forma más efectiva que considere.
+  2.  **Multiproceso asimétrico**: El SO repartirá las tareas que esté realizando cada procesador de la forma más efectiva que considere.
 
 #### 5.  Explotación según el tiempo de respuesta
 
 - **Tiempo real:**
-
   La respuesta es prácticamente inmediata tras lanzar un proceso.
 
 - **Tiempo compartido:**
-
   Cada proceso utilizará ciclos de la CPU de forma fragmentada hasta finalizar.
 
 
