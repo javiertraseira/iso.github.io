@@ -3,7 +3,7 @@
 Contenido del curso 19-20
 
 ```note
-This is a note
+Esto es una nota
 ```
 
 {% include list.liquid %}
