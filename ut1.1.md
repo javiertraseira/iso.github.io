@@ -39,7 +39,7 @@ El software se suele clasificar de forma típica en tres tipos según su funció
 - Software de aplicación
 
 
-### Software del sistema (base):
+### Software del sistema (base)
 
 ```note
 El software de sistema también llamado software de base es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
@@ -59,7 +59,7 @@ Este software se divide en:
 
 -   Otros programas (como *OpenGL, directX*..)
 
-### Software de programación:
+### Software de programación
 
 ```note
 El software de programación es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
@@ -76,7 +76,7 @@ Este tipo de software incluye principalmente:
 -   Entornos de desarrollo integrado (IDEs)
 
 
-### Software de aplicación:
+### Software de aplicación
 
 ```note
 El software de aplicación son los programas diseñados para los usuarios para la realización de tareas específicas en los ordenadores o dispositivos para los que han sido diseñados.
@@ -121,7 +121,9 @@ Aunque se confunden, software de **código abierto** y el **software libre** no 
 
 ### Software libre (GNU)
 
->   El proyecto GNU fue iniciado en 1984 por Richard Stallman y fundó la Free Software Foundation sin ánimo de lucro.
+```note
+El proyecto GNU fue iniciado en 1984 por Richard Stallman y fundó la Free Software Foundation sin ánimo de lucro.
+```
 
 Se fundamenta en la moral y exige la libertad absoluta del software. Cuatro libertades del software libre:
 
@@ -155,8 +157,7 @@ Tipos de licencias de **software propietario**:
 
 -   **Licencias OEM**: se trata de un tipo de licencia que supedita su venta a que forme parte de un equipo nuevo, estando prohibido venderlo si no es bajo esta condición.
     
--   **Licencias Retail**: son las versiones a la venta ‘normal’ de software a través de cualquier canal. En este caso, el programa es de la entera propiedad del usuario, pudiendo éste cederlo libremente a terceros o
-    venderlo.
+-   **Licencias Retail**: son las versiones a la venta ‘normal’ de software a través de cualquier canal. En este caso, el programa es de la entera propiedad del usuario, pudiendo éste cederlo libremente a terceros o venderlo.
     
 -   **Licencias por volumen (VLM)**: es un tipo de licencia de software destinado a grandes usuarios (empresas), normalmente bajo unas condiciones similares a las de las licencias OEM, aunque sin estar supeditadas a equipos nuevos.
     
@@ -167,11 +168,8 @@ Tipos de licencias de **software propietario**:
 Algunos tipos de licencias de **software libre**:
 
 -   **Licencias GPL (GNU General Public License).** Es una licencia que permite a su desarrollador conservar sus derechos como autor, pero permitiendo su libre distribución modificación y uso con una serie de restricciones:
-    
     -   El nuevo software o modificación debe tener la misma licencia.
-
     -   El uso de partes en otro software también obliga a hacer uso de la misma licencia.
-    
     -   Totalmente gratuito para el usuario (salvo gastos de copia o distribución)
     
 -   **Licencias BSD (Berkeley Software Distribution):** Es un tipo de licencia conocida por ser menos “restrictiva” lo que permite que desarrolladores puedan modificar, distribuir e incluso vender el software derivado.
