@@ -1,9 +1,3 @@
----
-layout: default
-title: Introducción a los sistemas informáticos: software
-nav_order: 2
----
-
 # UT1.1 Introducción a los sistemas informáticos: software 
 
 ## El software
