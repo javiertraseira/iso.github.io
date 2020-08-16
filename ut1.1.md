@@ -17,11 +17,11 @@ tablas de una base datos, etc.
 
 Para que los componentes electrónicos de un ordenador sean capaces de funcionar y realizar un proceso determinado, es necesario ejecutar un conjunto de órdenes o instrucciones.
 
-> 🔔 Se denomina **programa** al conjunto de **instrucciones** ordenadas y adecuadas para llevar a cabo un determinado proceso.
+> 📌 Se denomina **programa** al conjunto de **instrucciones** ordenadas y adecuadas para llevar a cabo un determinado proceso.
 
-> 🔔 El **software básico** para hacer funcionar cualquier ordenador se denomina sistema operativo y es lo que estudiaremos en este módulo junto con diversos programas.
+> 📌 El **software básico** para hacer funcionar cualquier ordenador se denomina sistema operativo y es lo que estudiaremos en este módulo junto con diversos programas.
 
-> 🔔 El **sistema operativo** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
+> 📌 El **sistema operativo** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
 
 
 ## Clasificación del software
@@ -37,7 +37,7 @@ El software se suele clasificar de forma típica en tres tipos según su funció
 
 ### Software del sistema (base)
 
->  💡 El software de sistema también llamado software de base es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
+>  💡 El **software de sistema** también llamado **software de base** es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
 
 Este software se divide en:
 
@@ -55,7 +55,7 @@ Este software se divide en:
 
 ### Software de programación
 
-> 💡 El software de programación es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
+> 💡 El **software de programación** es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
 
 Este tipo de software incluye principalmente:
 
@@ -131,7 +131,7 @@ Aunque se confunden, software de **código abierto** y el **software libre** no 
 
 Trata de suavizar las condiciones del GNU para facilitar su uso por las compañías.
 
-💡 El Open Source o código abierto, es la expresión con la que se conoce al software distribuido y desarrollado libremente.
+💡 El **Open Source** o código abierto, es la expresión con la que se conoce al software distribuido y desarrollado libremente.
 
 Es un movimiento más ‘**pragmático**’, que se enfoca más en los beneficios prácticos como acceso al código fuente que en aspectos éticos o de libertad que son tan relevantes en el Software Libre.
 
