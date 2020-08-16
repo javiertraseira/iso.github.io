@@ -1,14 +1,1 @@
-remote_theme: carlosperate/jekyll-theme-rtd
 
-# Theme settings:
-repo_url: "https://github.com/carlosperate/jekyll-theme-rtd"
-edit_on_github: true
-github_docs_folder: true
-sticky_navigation: true
-prev_next_buttons_location: bottom
-search_enabled: true
-hljs_style: github-gis
-prev_next_buttons_location: None
-prev_next_buttons_location: top
-prev_next_buttons_location: bottom
-prev_next_buttons_location: both
