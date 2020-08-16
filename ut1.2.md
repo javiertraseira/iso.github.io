@@ -157,6 +157,7 @@ Los sistemas operativos que cobran gran popularidad inicialmente en este períod
 
 Evolución histórica	
 
+
 | **Generación** | **Fecha**       | **Tecnología**                           | **Sistemas Operativos**                                |
 | -------------- | --------------- | ---------------------------------------- | ------------------------------------------------------ |
 | **1ª**         | 1945-1955       | Tubos de vacío y Tableros                | S.O. no existía                                        |
@@ -198,28 +199,22 @@ La **jerarquía o arquitectura** de los sistemas operativos (SO) que veremos en 
 Las **funciones** principales que realiza todo sistema operativo son las siguientes:
 
 1. **Control y ejecución de programas**
-
    Para ello, acepta los trabajos, administra la manera en que se realizan, les asigna los recursos y los
    conserva hasta cerrarse.
 
 2. **Administración de hardware, red y periféricos**
-
    Coordinando y manipulando los dispositivos conectados al ordenador.
 
 3. **Gestionar de ficheros, usuarios y permisos**
-
    Adjudica los permisos de acceso a los usuarios y a los archivos de un ordenador.
 
 4. **Control de concurrencia y errores**
-
    Establece prioridades cuando diferentes procesos solicitan un mismo recurso. Gestiona errores de hardware y de datos.
 
 5. **Administración de memoria (procesos)**
-
    Asigna memoria a los procesos y gestiona su uso.
 
 6. **Control de seguridad**
-
    Proporciona seguridad tanto para los usuarios como para el software y la información almacenada en los sistemas.
 
 ## Conceptos SO
@@ -227,6 +222,7 @@ Las **funciones** principales que realiza todo sistema operativo son las siguien
 Algunos **conceptos clave** usados por los Sistemas Operativos son:
 
 -   **Usuario:** Toda aquella persona que trabaja en el sistema.
+
 -   **Sesión:** Periodo de tiempo durante el cual un usuario interactúa con el sistema.
 
 -   **Programa:** Código ejecutable. Se trata de un concepto estático.
@@ -278,7 +274,7 @@ La parte del sistema operativo que gestiona la memoria se denomina **administrad
 
 La gestión de la memoria es importante cuando trabajamos en sistemas operativos multitarea (cualquier SO moderno) ya que trabajan con varios **procesos** a la vez.
 
-El **administrador de memoria **proporcionará por tanto protección y **uso compartido** , es decir, debe proporcionar un espacio de memoria para cada proceso que lo necesite y controlar que ningún otro proceso trabaje en zonas de memoria que no le correspondan produciendo colisiones o inconsistencias
+El **administrador de memoria** proporcionará por tanto protección y **uso compartido** , es decir, debe proporcionar un espacio de memoria para cada proceso que lo necesite y controlar que ningún otro proceso trabaje en zonas de memoria que no le correspondan produciendo colisiones o inconsistencias
 en los datos.
 
 Un error o colisión de zona de memoria provocará un fallo en cascada del SO provocando un cuelgue del sistema.
@@ -338,39 +334,33 @@ Las interfaces se clasifican en:
 
 ##   Modos de explotación	
 
-#### 1.  **Explotación según su procesamiento**
+### 1.  **Explotación según su procesamiento**
 
 - **Procesamiento por Lotes:**
-
   Es el sistema que se utilizaba en la segunda generación de ordenadores con SO como FMS e IBSYS, y en el que había 4 pasos diferenciados: introducir los datos, transportarlos a la computadora y procesar los datos en la computadora y traerlos de vuelta.
 
 - **Procesamiento de respuesta inmediata:**
-
   Se trata del sistema de procesamiento utilizado en la actualidad. Se introducen los datos en el momento y la respuesta también se obtiene de forma inmediata desde la CPU, es decir, hay que esperar poco entre lo que se tarda en introducir los datos y la repuesta, dependiendo eso de lo que tarde el proceso o programa en sí.
 
-#### 2.  **Explotación según número de usuarios**
+### 2.  **Explotación según número de usuarios**
 
 - **Monousuario**:
-
   Un solo usuario utiliza a la vez el Sistema Operativo y sus recursos.
 
 - **Multiusuario**:
-
   Permiten que varios usuarios puedan ejecutar a la vez distintos programas y hacer uso de los recursos de una máquina al mismo tiempo.
 
-#### 3.  **Explotación según número de procesos**
+### 3.  **Explotación según número de procesos**
 
 - **Monoprogramación o monotarea**:
-
   Solo se puede ejecutar un programa o proceso a la vez. Todos los recursos del sistema están dedicados a ese programa o recurso.
 
   Un SO monotarea no significa que no pueda ser multiusuario, siempre y cuando esperen su turno de ejecución.
 
 - **Multiprogramación o multitarea**:
-
   En este tipo de SO se pueden ejecutar varios programas o procesos concurrentemente. Si el SO se instala en una máquina con un solo procesador, la CPU compartirá su tiempo entre los diferentes procesos que requieran ejecutarse a la vez en ese momento.
 
-#### 4.  **Explotación según número de procesadores**
+### 4.  **Explotación según número de procesadores**
 
 - **Monoprocesador**:
 
@@ -384,7 +374,7 @@ Las interfaces se clasifican en:
 
   2.  **Multiproceso asimétrico**: El SO repartirá las tareas que esté realizando cada procesador de la forma más efectiva que considere.
 
-#### 5.  Explotación según el tiempo de respuesta
+### 5.  Explotación según el tiempo de respuesta
 
 - **Tiempo real:**
   La respuesta es prácticamente inmediata tras lanzar un proceso.
