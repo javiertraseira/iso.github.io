@@ -83,7 +83,7 @@ Este tipo de software incluye principalmente:
 El software de aplicación son los programas diseñados para los usuarios para la realización de tareas específicas en los ordenadores o dispositivos para los que han sido diseñados.
 ```
 
->   Este software se podría dividir en:
+Este software se podría dividir en:
 
 -   Aplicaciones de negocio.
 
