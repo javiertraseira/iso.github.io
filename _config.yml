@@ -2,7 +2,7 @@
 title: ISO
 lang: es
 
-remote_theme: rundocs/jekyll-rtd-theme # rundocs/jekyll-theme-docsify
+remote_theme: rundocs/jekyll-rtd-theme  
 
 edit: true
 addons_branch: true
