@@ -2,9 +2,5 @@
 
 Contenido del curso 19-20
 
-```note
-Esto es una nota
-```
-
 {% include list.liquid %}
 
