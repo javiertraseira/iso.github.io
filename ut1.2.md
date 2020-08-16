@@ -17,7 +17,7 @@ El **Sistema Operativo** ofrece al usuario la forma de comunicarse con el  orden
 
 Se pueden clasificar los SO teniendo en cuenta la gestión que hacen del software y el hardware, y la forma en que el usuario los puede utilizar:
 
-<img src="media\Clasificacion_SO.png" alt="Clasificacion_SO" style="zoom: 80%;" />
+<img src="media/Clasificacion_SO.png" alt="Clasificacion_SO" style="zoom: 80%;" />
 
 1.  **Sistemas operativos monopuesto** (SOMO): Un solo usuario utiliza a la vez el Sistema Operativo y sus recursos. Se denominan también de escritorio.
 
@@ -391,7 +391,6 @@ Las interfaces se clasifican en:
 
 - **Tiempo compartido:**
   Cada proceso utilizará ciclos de la CPU de forma fragmentada hasta finalizar.
-
 
 
 
