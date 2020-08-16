@@ -1,5 +1,3 @@
-{% include list.liquid all=true %}
-
 # UT1.1 Introducción a los sistemas informáticos: software 
 
 ## El software
