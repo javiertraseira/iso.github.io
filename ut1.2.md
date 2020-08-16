@@ -363,10 +363,11 @@ Las interfaces se clasifican en:
 ### 4.  **Explotación según número de procesadores**
 
 - **Monoprocesador**:
-  El ordenador consta de un único procesador y todos los procesos y tareas tendrán que pasar por él. Un ordenador monoprocesador podrá tener un SO monotarea, multitarea, monousuario o multiusuario.
+El ordenador consta de un único procesador y todos los procesos y tareas tendrán que pasar por él. Un ordenador monoprocesador podrá tener un SO monotarea, multitarea, monousuario o multiusuario.
 
 - **Multiprocesador:**
-  Todo aquel ordenador que tenga dos o más procesadores (dual core) .
+Todo aquel ordenador que tenga dos o más procesadores (dual core)!.
+
 
   1.  **Multiproceso simétrico**: El SO utilizará la potencia de los procesadores de igual forma.
 
