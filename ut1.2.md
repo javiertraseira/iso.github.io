@@ -27,8 +27,7 @@ Se pueden clasificar los SO teniendo en cuenta la gestión que hacen del softwar
 
 4.  **Sistemas operativos distribuidos** (SOD): administran una colección de nodos distribuidos que trabajan en red, se comunican entre ellos y comparten recursos.
 
-5.  **Sistemas operativos en tiempo real**: Son sistemas orientados a la respuesta en tiempo real, usados en sistemas críticos o cuando el tiempo de
-    respuesta debe ser inmediato.
+5.  **Sistemas operativos en tiempo real**: Son sistemas orientados a la respuesta en tiempo real, usados en sistemas críticos o cuando el tiempo de respuesta debe ser inmediato.
 
 ### Clasificación según su forma de procesamiento 
 
