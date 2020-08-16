@@ -4,6 +4,7 @@
 The new repository will generate with the same files and folders from [rundocs/starter-slim][repo], You can [preview the theme to see what it looks like][preview], or even [generate it today][generate].
 
 ## site.pages
+ :bulb:
 {% for item in site.pages %}
 1. [{{ item.title | default: item.url }}]({{ site.baseurl | append: item.url }})
 {%- endfor %}
