@@ -2,7 +2,6 @@
 
 ## El software
 
-
 ```note
 El software es el conjunto de instrucciones y programas, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
 ```
