@@ -37,7 +37,7 @@ Campos fundamentales de las **ciencias de la computación**:
 
     - **Minería de datos y big data**.
 
-      ![big_data]( /media/big_data.jpg)
+      ![big_data](/media/big_data.jpg)
 
    - Estudio de algoritmos para buscar y procesar información en documentos y
       bases de datos; adquisición de información.
@@ -97,21 +97,21 @@ Para que los componentes electrónicos de un ordenador sean capaces de funcionar
 
 Cuando un programa está compuesto por varios, forma lo que se denomina como **aplicación informática**.
 
-El **software básico **para hacer funcionar cualquier ordenador se denomina **sistema operativo (SO)**
+El **software básico** para hacer funcionar cualquier ordenador se denomina **sistema operativo (SO)**
 
 >   💡 El **sistema operativo (SO)** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
 
-El **firmware **es otro elemento importante entre software y hardware dentro de un sistema informático. Consta de instrucciones (software) que fijan la lógica primaria sobre los circuitos (hardware) funcionando como el nexo entre las instrucciones que llegan al dispositivo desde el exterior y sus diversas partes electrónicas.
+El **firmware** es otro elemento importante entre software y hardware dentro de un sistema informático. Consta de instrucciones (software) que fijan la lógica primaria sobre los circuitos (hardware) funcionando como el nexo entre las instrucciones que llegan al dispositivo desde el exterior y sus diversas partes electrónicas.
 
-<img src=" /media/firmware.jpg" alt="firmware" style="zoom:67%;" />
+<img src="/media/firmware.jpg" alt="firmware" style="zoom:67%;" />
 
 
 
 La conexión entre los diferentes subsistemas o componentes de un SI se realiza utilizando una **interfaz.**
 
-![interfaz]( /media/interfaz.png)
+![interfaz](/media/interfaz.png)
 
-Este módulo está centrado en el estudio del subsistema físico de los SI, es decir, los ordenadores y sus componentes así como de su mantenimiento y características.
+
 
 ## El Sistema Informático
 
@@ -150,10 +150,9 @@ informático más utilizado por empresas alrededor del mundo, ya que le permiten
 
 ## El Hardware de un sistema informático
 
->   💡 Se denomina **hardware **a todas las partes tangibles de un ordenador o computadora: sus componentes eléctricos, electrónicos, electromecánicos, así como sus periféricos asociados, cables, baterías o carcasas y cajas.
+>   💡 Se denomina **hardware** a todas las partes tangibles de un ordenador o computadora: sus componentes eléctricos, electrónicos, electromecánicos, así como sus periféricos asociados, cables, baterías o carcasas y cajas.
 
-
-<img src=" /media/piezas_ordenador.jpg" alt="piezas_ordenador" style="zoom: 80%;" /><img src="/media/cpd.jpg" alt="cpd" style="zoom:50%;" />
+<img src="/media/piezas_ordenador.jpg" alt="piezas_ordenador" style="zoom: 80%;" /><img src="/media/cpd.jpg" alt="cpd" style="zoom:50%;" />
 
 
 
@@ -184,7 +183,7 @@ La **evolución** del hardware desde el SXX a la actualidad ha sido tecnológica
 
 - **3ª Generación** (*1964-1975*): electrónica basada en **circuitos integrados**. Esta tecnología permitió integrar cientos de transistores y otros componentes electrónicos en un único circuito integrado impreso en una pastilla de silicio. Las computadoras redujeron así considerablemente su costo, y tamaño e incrementado su velocidad y fiabilidad.
 
-![circuito_integrado]( /media/circuito_integrado.jpg)
+![circuito_integrado](/media/circuito_integrado.jpg)
 
 
 
@@ -235,7 +234,7 @@ La **evolución** del hardware desde el SXX a la actualidad ha sido tecnológica
 
 
 
-![IBM360]( /media/IBM360.jpg)
+![IBM360](/media/IBM360.jpg)
 
 > IBM 360
 
@@ -248,6 +247,8 @@ La **evolución** del hardware desde el SXX a la actualidad ha sido tecnológica
 -  Surgen los primeros sistemas operativos mordernos como Unix
 
 ![](/media/4004.jpg)
+
+> Intel 4004
 
 ### Quinta generación (1981-hoy)
 
@@ -271,8 +272,8 @@ La **evolución** del hardware desde el SXX a la actualidad ha sido tecnológica
 
 ## La Ley de Moore
 
->   💡 La **ley de Moore **dice que aproximadamente cada dos años se duplica el número de **transistores **en un procesador.
+>   💡 La **ley de Moore** dice que aproximadamente cada dos años se duplica el número de **transistores** en un procesador.
 
 Se trata de una predicción formulada por el cofundador de Intel, Gordon E. Moore, el 19 de abril de 1965, cuyo cumplimiento se ha podido constatar hasta el día de hoy.
 
-![Ley_moore]( /media/Ley_moore.jpg)
+![Ley_moore](/media/Ley_moore.jpg)
