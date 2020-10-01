@@ -1,186 +1,278 @@
-# UT1.1 Introducción a los sistemas informáticos: software 
+# UT1.1: Introducción a los sistemas informáticos: hardware
 
-## El software
 
-> 💡 El **software** es el conjunto de instrucciones y programas, parte intangible, que utiliza un ordenador o computadora para funcionar y que se almacena en su memoria.
+## Informática
 
-Comúnmente se utiliza este término para referirse de una forma muy genérica a los programas de un dispositivo informático, la parte **lógica** de un ordenador.
+Según el Diccionario de la Real Academia Española se define a la **informática** como:
 
-Para que un ordenador funcione necesita información o **datos** con los que trabajar. Esta información es de varios tipos dependiendo de su función. El ordenador puede servir para procesar información en forma de datos, los cuales pueden ser textos, imágenes, datos de sensores, hojas de cálculo,
-tablas de una base datos, etc.
+>   💡 Conjunto de conocimientos científicos y técnicas que hacen posible el tratamiento automático de la información por medio de dispositivos digitales, denominados ordenadores o computadoras.
 
-1.  **Datos de entrada**: Los que se suministran al ordenador desde los periféricos de entrada (teclado, ratón, escáner) o soportes como disocs (HDDs, DVDs, etc). Forman parte de la primera fase del tratamiento de la información denominada **entrada**.
+Su aparición como ciencia se debe a la presentación del primer ordenador en el año 1936 denominado **Z1** y usado como arma de cálculo durante la 2ª Guerra Mundial.
+
+El objeto de estudio de la Informática es muy amplio:
+
+-   **Aspecto Físico** (Diseño, Arquitectura, Fabricación, Componentes)
+
+-   **Aspecto Lógico** (Almacenamiento, Organización de datos, Programas,
+    Información y Comunicación entre dispositivos).
+
+![](/media/b602f1f3e512f6a349e94b23d96914dc.png)
+
+Actualmente es difícil concebir un área que no use el apoyo de la informática. Existen ramas de la informática dedicada a nuevos campos como la Inteligencia Artificial, Ingeniería, Cine, Música, Videojuegos, Realidad Virtual y Robótica, en desarrollo gracias al apoyo de varias ciencias.
+
+![campos_informatica]( /media/campos_informatica.png)
+
+Campos fundamentales de las **ciencias de la computación**:
+
+- **Fundamentos matemáticos:**
+   - **Criptografía**. Consta de algoritmos para proteger datos privados, incluyendo el cifrado.
+
+   - **Teoría de grafos** Recursos elementales para almacenamiento de datos y algoritmos de búsqueda.
+
+<img src="/media/5bb71889b700a5614a66045b693c606e.jpg" style="zoom:50%;" /> <img src="media/fc181a3d3112959502356fddaeabe52e.jpg" style="zoom: 67%;" />
+
+
+
+- **Bases de datos:**
+
+    - **Minería de datos y big data**.
+
+      ![big_data]( /media/big_data.jpg)
+
+   - Estudio de algoritmos para buscar y procesar información en documentos y
+      bases de datos; adquisición de información.
+
+      ![](media/441cfe23c3f7361a9d65780a3ab41931.png)
+
+- **Algoritmos y estructuras de datos:**
+  
+    -   Análisis de algoritmos. Procesos formales usados para los cómputos,  y eficiencia de estos procesos.
+      
+    - Estructuras de datos. Organización y manipulación de los datos.
+
     
-2.  **Datos intermedios:** Son los que se obtienen en el tratamiento de la información denominada **proceso**.
+  
+- **Inteligencia Artificial (IA):**
+
+    - La implementación y estudio de sistemas que exhiben (ya sea por una inteligencia autónoma o comportamiento propio, a veces inspirado por las características de los seres vivos.
+    - Robótica: algoritmos para el control de robots autónomos
+
+    <img src=" /media/driving.jpg" alt="driving" style="zoom:67%;" />
+
     
-3.  **Datos de salida**: se denominan también resultados del proceso de tratamiento: **salida**.
+
+- **Gráficos por ordenador:**
+
+    -   Algoritmos para generar sintéticamente imágenes fotorrealistas.
+
+    -   Reconocimiento y procesamiento de imágenes.
+
+![](media/ff7522a9b0e06950a524d6ca10b6627b.jpg)
+
+- **Computación científica:**
+
+   - Bioinformática
+   - Computación cuántica
+   
+   ![](media/3a7dde2b6c5d4b4823a060c22adeb388.jpg)
+
+## El ordenador
+
+> 💡 Un **ordenador** o computadora es una máquina electrónica que sirve para procesar información digital.
+
+El ordenador es una máquina compuesta de elementos físicos (**hardware**), en su mayoría circuitos electrónicos, capaces de realizar una gran variedad de trabajos de **procesamiento digital** a gran velocidad.
+
+![esquema_si]( /media/esquema_si.jpg)
+
+Estos componentes electrónicos necesitan de otros componentes no físicos que los pongan en funcionamiento; los **programas, apps o software**.
+
+
+![partes_si]( /media/partes_si.jpg)
+
+>   💡 Un ordenador se distingue de otros dispositivos similares, como una calculadora no programable, es que es una máquina de propósito general, es decir, puede realizar tareas muy diversas, de acuerdo a las posibilidades de sus programas y el hardware.
 
 Para que los componentes electrónicos de un ordenador sean capaces de funcionar y realizar un proceso determinado, es necesario ejecutar un conjunto de órdenes o instrucciones.
 
-> 📌 Se denomina **programa** al conjunto de **instrucciones** ordenadas y adecuadas para llevar a cabo un determinado proceso.
+>   📌Se denomina **programa** al conjunto de **instrucciones** ordenadas y adecuadas para llevar a cabo un determinado proceso.
 
-> 📌 El **software básico** para hacer funcionar cualquier ordenador se denomina sistema operativo y es lo que estudiaremos en este módulo junto con diversos programas.
+Cuando un programa está compuesto por varios, forma lo que se denomina como **aplicación informática**.
 
-> 📌 El **sistema operativo** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
+El **software básico **para hacer funcionar cualquier ordenador se denomina **sistema operativo (SO)**
 
+>   💡 El **sistema operativo (SO)** es el componente software de un sistema informático capaz de hacer que los **programas** (**software**) procesen información (**datos**) sobre los componentes electrónicos de un ordenador o sistema informático (**hardware**).
 
-## Clasificación del software
+El **firmware **es otro elemento importante entre software y hardware dentro de un sistema informático. Consta de instrucciones (software) que fijan la lógica primaria sobre los circuitos (hardware) funcionando como el nexo entre las instrucciones que llegan al dispositivo desde el exterior y sus diversas partes electrónicas.
 
-El software se suele clasificar de forma típica en tres tipos según su función como veremos a continuación:
+<img src=" /media/firmware.jpg" alt="firmware" style="zoom:67%;" />
 
-- Software del sistema
 
-- Software de programación
 
-- Software de aplicación
+La conexión entre los diferentes subsistemas o componentes de un SI se realiza utilizando una **interfaz.**
 
+![interfaz]( /media/interfaz.png)
 
-### Software del sistema (base)
+Este módulo está centrado en el estudio del subsistema físico de los SI, es decir, los ordenadores y sus componentes así como de su mantenimiento y características.
 
->  💡 El **software de sistema** también llamado **software de base** es el conjunto de programas que sirven para interactuar con el sistema informático, confiriendo control sobre todo el hardware, además de dar soporte a otros programas.
+## El Sistema Informático
 
-Este software se divide en:
 
--   Sistemas Operativos
 
--   Controladores de dispositivos (drivers)
+![Sistema_informatico](/media/Sistema_informatico.png)
 
--   BIOS/UEFI
 
--   Hipervisores de Máquinas Virtuales
 
--   Gestores de arranque
+Los **sistemas informáticos **pueden clasificarse o englobarse en al menos estas cuatro tipologías:
 
--   Otros programas (como *OpenGL, directX*..)
+-   Sistemas de procesamiento de transacciones (**TPS**)
+-   Sistema de control de procesos de negocio (**BPM**)
+-   Sistemas de colaboración empresarial (**ERP**)
+-   Sistemas de apoyo a la toma de decisiones (**DSS**)
 
-### Software de programación
+### Sistemas de procesamiento de transacciones (TPS)
+Los sistemas de procesamiento de transacciones **TPS** (*Transaction Processing System*) son los sistemas empresariales básicos que sirven al nivel operacional de la organización.
 
-> 💡 El **software de programación** es un conjunto de herramientas software que permiten al desarrollador informático escribir programas usando diferentes alternativas y lenguajes de programación (muchos de ellos específicos para cada uno de ellos)
+Un sistema de procesamiento de transacciones es un sistema computarizado que realiza y registra las transacciones rutinarias diarias necesarias para el funcionamiento de la empresa. Se encuentran en el nivel más bajo de la jerarquía organizacional y soportan las actividades cotidianas del negocio.
 
-Este tipo de software incluye principalmente:
+### Sistemas de control de procesos de negocio (BPM)
 
--   Editores de código
+Los Sistemas de control de procesos de negocio, conocidas también como **BPM** (*Business Process Management*) son aquellos sistemas encargados de monitorizar, controlar y gestionar cualquier proceso de industrialización.
 
--   Compiladores y depuradores de código
+Estos sistemas monitorizan y controlan los procesos industriales o físicos, como puede ser la refinación de petróleo, generación de energía o los sistemas de producción de acero en una planta siderúrgica a través de sensores electrónicos y sistemas en tiempo real.
 
--   Intérpretes o ensambladores
+### Sistemas de apoyo en la toma de decisiones (DSS)
 
--   Entornos de desarrollo integrado (IDEs)
+Un Sistema informático de apoyo a la toma de decisiones, también conocido como Sistema de soporte a la decisión o **DSS** (*Decision Support System*), básicamente es un sistema basado en computadoras diseñado con el propósito de ser usado por una gerencia o gerencia de área para ayudarlos en el proceso de tomar una decisión para resolver problemas y con ello poder diagramar las directrices para seleccionar la mejor opción o predecir los futuros escenarios para afrontar nuevos desafíos.
 
+### Sistemas de colaboración empresarial
 
-### Software de aplicación
+Los sistemas **ERP** (*Enterprise Resource Planning*) son uno de los más claros ejemplos de sistema informático. Los sistemas ERP, también conocidos como Sistemas de colaboración empresarial, son el tipo de sistema
+informático más utilizado por empresas alrededor del mundo, ya que le permiten a las compañías a gestionar la gran cantidad de información que circula dentro de la misma.
 
->  💡 El **software de aplicación** son los programas diseñados para los usuarios para la realización de tareas específicas en los ordenadores o dispositivos para los que han sido diseñados.
+## El Hardware de un sistema informático
 
-Este software se podría dividir en:
+>   💡 Se denomina **hardware **a todas las partes tangibles de un ordenador o computadora: sus componentes eléctricos, electrónicos, electromecánicos, así como sus periféricos asociados, cables, baterías o carcasas y cajas.
 
--   Aplicaciones de negocio.
 
--   Aplicaciones ofimáticas.
+<img src=" /media/piezas_ordenador.jpg" alt="piezas_ordenador" style="zoom: 80%;" /><img src="/media/cpd.jpg" alt="cpd" style="zoom:50%;" />
 
--   Aplicaciones educativas.
 
--   Aplicaciones de entretenimiento.
 
--   Aplicaciones personales.
+### Evolución histórica del hardware
 
-### Otras clasificaciones
+La evolución histórica de la informática va pareja con la evolución de la mecánica y de la electrónica.
 
-El software también se suele clasificar siguiendo el siguiente esquema:
+Como antecedentes al inicio de la informática, podemos encontrar a lo largo de la historia de la humanidad distintos instrumentos y máquinas que el hombre ha ido utilizando para facilitar el cálculo.
 
-![](/media/clasificacion_software.jpg)
+>   📌 La primera muestra de ello la podemos encontrar en el **ábaco**, que se utilizo en varias culturas de la antigüedad y en la Edad Media y que permitía realizar operaciones de suma y resta con facilidad.
 
+>   En el S XVII podemos encontrar la calculadora que diseñó **Blaise Pascal**, que estaba basada en dispositivos mecánicos y que solo realizaba operaciones limitadas como las sumas y las restas, pero que sentó las bases para que, más adelante, **Leibnitz **desarrollara otra calculadora más potente y con
+>   más funciones, como el producto y la división.
 
-## Licencias de software
+>   A principios del siglo XIX **J.M. Jacquard **desarrolló un telar programable mediante tarjetas perforadas, que fue el antecesor de los primeros dispositivos de cálculo y cuyo diseño fue utilizado posteriormente para la introducción de datos.
 
-Para cada uno de estos tres tipos de software vistos anteriormente, es necesario distinguir entre software libre o software, dependiendo de las **licencias** y permisos para su uso:
+La **evolución** del hardware desde el SXX a la actualidad ha sido tecnológicamente vertiginosa y se clasifica en <u>cinco</u> generaciones:
 
--   **Software libre** es el que otorga libertad de uso, copia y distribución a los usuarios. Su código puede ser totalmente abierto o estar sometido a ciertas normas según la licencia asociada concreta a ese programa.
-    
--   **Software de propietario** es aquel cuyas condiciones de uso, copia y  distribución están sometidas a normas o restricciones. Su código fuente es cerrado, es decir, no está disponible para el usuario (el propietario puede mostrarlo, pero esto no implica que pase a ser software libre en  cuanto a su uso).
+- **1ª Generación** (*1945-1956*): electrónica implementada con válvulas de vacío.
 
-![licencias](/media/licencias.jpg)
+![](media/2685d31c5f5f2a5680b0d28f9f0c1bce.png)
 
 
 
->   Una **licencia de software** es un contrato entre el licenciante (autor/titular de los derechos de explotación/distribuidor) y el licenciatario del programa informático (usuario consumidor/usuario profesional o empresa), para utilizar el software cumpliendo una serie de términos y condiciones establecidas en sus cláusulas.
+- **2ª Generación** (*1957-1963*): electrónica desarrollada con **transistores**. La lógica discreta era muy parecida a la anterior reduciéndose entre otros factores, el tamaño de un computador en una notable escala.
 
-Cuando compramos o bajamos de Internet un programa, al instalarlo solemos aceptar sin leer (*mala costumbre*) un contrato que especifica el tipo de **Licencia** de uso del software, en inglés *EULA *o *End User License Agreement*: licencia por la cual el uso de un producto sólo está permitido para un único usuario (el comprador). Es un acuerdo unilateral puesto que el usuario no tiene más opción que aceptar o rechazar el contenido del mismo.
+![](media/69d4725cf48215e8d4be1896f9df3256.png)
 
-Aunque se confunden, software de **código abierto** y el **software libre** no son exactamente lo mismo debido a diferencias sutiles de concepto.
+- **3ª Generación** (*1964-1975*): electrónica basada en **circuitos integrados**. Esta tecnología permitió integrar cientos de transistores y otros componentes electrónicos en un único circuito integrado impreso en una pastilla de silicio. Las computadoras redujeron así considerablemente su costo, y tamaño e incrementado su velocidad y fiabilidad.
 
-### Software libre (GNU)
+![circuito_integrado]( /media/circuito_integrado.jpg)
 
-💡 El proyecto **GNU** fue iniciado en 1984 por Richard Stallman y fundó la Free Software Foundation sin ánimo de lucro.
 
-Se fundamenta en la moral y exige la libertad absoluta del software. Cuatro libertades del software libre:
 
-1.  La libertad de usar el programa, con cualquier propósito. (libertad 0)
+- **4ª Generación** *(1971-1981)* Con la aparición del primer **microprocesador** por parte de Intel (el 4004), junto con mejoras en la miniaturización y la implantación de nuevos lenguajes de alto nivel.	
 
-2.  La libertad de estudiar cómo funciona el programa, y adaptarlo a tus necesidades (libertad 1)
-    
-3.  La libertad de distribuir copias, con lo que puedes ayudar a tu vecino (libertad 2)
-    
-4.  La libertad de mejorar el programa y hacer públicas las mejoras a los demás, de modo que toda la comunidad se beneficie (libertad 3)
+![](media/38e0063c3ce9b7a79ccc52707c7a1d7a.png)
 
->   **El software libre no referencia a que sea gratis** (de hecho no siempre lo es)
 
-Aunque se confunden, software de **código abierto** y el **software libre** no son exactamente lo mismo debido a diferencias sutiles de concepto:
 
-### El software de código abierto (Open Source):
+-  **5ª Generación **(*1981-hoy*) Aparece el primer **ordenador personal**, las supercomputadoras actuales y los smartphones. Aparecen los SO en red, móviles y distribuidos.
 
-Trata de suavizar las condiciones del GNU para facilitar su uso por las compañías.
+![](media/PC.jpg)
 
-💡 El **Open Source** o código abierto, es la expresión con la que se conoce al software distribuido y desarrollado libremente.
+### Primera generación (1945-1956)
 
-Es un movimiento más ‘**pragmático**’, que se enfoca más en los beneficios prácticos como acceso al código fuente que en aspectos éticos o de libertad que son tan relevantes en el Software Libre.
+- Conmutadores: **válvulas de vacío**
+- Poco fiables
+- ENIAC. Primer ordenador digital fabricado en 1945.
+- Un barracón, 30 toneladas
+- Potencia de cálculo: menos que una calculadora de bolsillo
 
-![](media/081baa59bfc621dadfc7baa92280bc27.jpg)
+![](media/0adb73381c079934e6d2c81a4fd9041d.jpg)
 
-### El software propietario y sus licencias
+>   ENIAC, construido para la II Guerra Mundial
 
-Tipos de licencias de **software propietario**:
 
--   **Licencias OEM**: se trata de un tipo de licencia que supedita su venta a que forme parte de un equipo nuevo, estando prohibido venderlo si no es bajo esta condición.
-    
--   **Licencias Retail**: son las versiones a la venta ‘normal’ de software a través de cualquier canal. En este caso, el programa es de la entera propiedad del usuario, pudiendo éste cederlo libremente a terceros o venderlo.
-    
--   **Licencias por volumen (VLM)**: es un tipo de licencia de software destinado a grandes usuarios (empresas), normalmente bajo unas condiciones similares a las de las licencias OEM, aunque sin estar supeditadas a equipos nuevos.
-    
--   **Otro tipo de licencias especiales**: Por ejemplo las licencias de educación o de sectores específicos como el militar.
 
-### El software libre y sus licencias
+### Segunda generación (1957-1963)
 
-Algunos tipos de licencias de **software libre**:
+- Conmutadores: aparecen los **transistores**
+- Ejemplo: IBM 7090, 2.900.000\$ en el mercado
+- Reducción de tamaño, coste y fiabilidad
+- Primeros lenguajes de programación (Algol y Cobol)
 
--   **Licencias GPL (GNU General Public License).** Es una licencia que permite a su desarrollador conservar sus derechos como autor, pero permitiendo su libre distribución modificación y uso con una serie de restricciones:
-    -   El nuevo software o modificación debe tener la misma licencia.
-    -   El uso de partes en otro software también obliga a hacer uso de la misma licencia.
-    -   Totalmente gratuito para el usuario (salvo gastos de copia o distribución)
-    
--   **Licencias BSD (Berkeley Software Distribution):** Es un tipo de licencia conocida por ser menos “restrictiva” lo que permite que desarrolladores puedan modificar, distribuir e incluso vender el software derivado.
+![](media/f943fbc317a4e6cc8c2d190e6fa5a865.jpg)
 
--   **Licencias Creative Commons**: Una de las más conocidas a nivel internacional, esta licencia posibilita un modelo legal de distribución y uso de contenidos basada en 4 condiciones principales que pueden ser combinadas para hacer licencias mixtas combinando características:
-    
--   **Atribución**: Se conceden derechos de copia, distribución, exhibición y derivación siempre y cuando se reconozca y cite la obra de la forma especificada por el autor o el licenciante.
-    
--   **No Comercial**: Se puede copiar, distribuir, exhibir y representar la obra y hacer obras derivadas pero sin fines comerciales.
-    
--   **No Derivadas**: En este caso podemos copiar, distribuir, exhibir y representar copias literales de la obra pero no producir obras derivadas.
-    
--   **Compartir Igual**: El usuario tiene el derecho de distribuir obras derivadas pero siempre con una licencia idéntica a la de la obra original.
-    
--   **Licencias MIT**: Licencia de Instituto Tecnológico de Massachusetts. Es una licencia con casi ninguna limitación de uso o modificación y que no tiene restricción en el uso de software pudiendo tener variantes privativas del mismo. Software libre no significa *no comercial*.
-    
-    Un programa libre debe estar disponible para uso comercial, desarrollo comercial y distribución comercial. El desarrollo comercial del software libre ha dejado de ser inusual y el software comercial libre es muy importante.
-    
+>   Consola de manejo del IBM 7090 en la NASA
 
-### Cuadro resumen licencias
 
 
-| **Software Libre** Uso gratuito (existen excepciones) Se puede modificar Se pueden distribuir los cambios                 | **Software privativo o propietario** Se paga por cada licencia No se puede modificar |
-|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| **Freeware** Uso gratuito No se puede modificar                                                                           | **Shareware** Se prueba y luego se paga No se puede modificar                        |
-| **Dominio público** Software sin licencia. Se permite uso, copia, modificación o redistribución con o sin fines de lucro. |   
+### Tercera generación (1965-1975)
 
+- Circuitos integrados, con decenas de transistores.
 
+-   Ejemplo: IBM 360, 2.000.000 \$ en el mercado.
+
+-   Aparecen lenguajes como BASIC, C o Pascal.
+
+
+
+![IBM360]( /media/IBM360.jpg)
+
+> IBM 360
+
+### Cuarta generación (1971-1981)
+
+
+-  Aparece el primer microprocesador en 1971: el 4004de Intel
+-  Se caracteriza por la alta integración de componentes electrónicos y sigue disminuyendo su coste y tamaño.
+-  Aparecen las primeras microcomputadoras (Apple II, Spectrumy Commodore)
+-  Surgen los primeros sistemas operativos mordernos como Unix
+
+![](/media/4004.jpg)
+
+### Quinta generación (1981-hoy)
+
+-  Se considera a partir de la aparición del primer ordenador personal PC de IBM
+-  El **IBM PC**, 1.500.000$
+-  Apple Macintosh, iphone, Android..
+-  Nuevos lenguajes de programación (orientada a objetos) y SO modernos.
+-  Electrónica de consumo moderna y tecnología móvil.
+
+
+
+![](media/d1d8d68f8466245da5b2f63bada1f024.jpg)
+
+> Ordenador personal IBM PC
+
+<img src="media/a3b4b0a3dd1f5562330d745baf9a9899.jpg" style="zoom: 67%;" /> <img src="media/ac8ab3478d0c39439bd05b4b7eea11bc.jpg" style="zoom:67%;" />
+
+> Primer Apple Macintosh y primer móvil Android
+
+
+
+## La Ley de Moore
+
+>   💡 La **ley de Moore **dice que aproximadamente cada dos años se duplica el número de **transistores **en un procesador.
+
+Se trata de una predicción formulada por el cofundador de Intel, Gordon E. Moore, el 19 de abril de 1965, cuyo cumplimiento se ha podido constatar hasta el día de hoy.
+
+![Ley_moore]( /media/Ley_moore.jpg)
