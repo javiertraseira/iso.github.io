@@ -103,17 +103,17 @@ El SO se construye en capas de niveles jerárquicos, cada uno de los cuales apro
 
 ### 5. Núcleo híbrido	
 
-- Este tipo de arquitectura consiste básicamente en un esquema de micronúcleo que incluye algo de código complementario para hacerlo más rápido, aunque buena parte de las funciones del sistema operativo siguen ejecutándose en modo usuario.
+Este tipo de arquitectura consiste básicamente en un esquema de micronúcleo que incluye algo de código complementario para hacerlo más rápido, aunque buena parte de las funciones del sistema operativo siguen ejecutándose en modo usuario.
 
-  Se trata de una solución de compromiso que han adoptado muchos de los sistemas operativos modernos como Windows o Mac.
+Se trata de una solución de compromiso que han adoptado muchos de los sistemas operativos modernos como Windows o Mac.
 
-  Ejemplos:
+Ejemplos:
 
-  - Versiones escritorio de **Windows **a partir de XP
+- Versiones escritorio de **Windows **a partir de XP
 
-  - Mac **OSX**.
+- Mac **OSX**.
+
   
-    
 
 ##   Comparativa	
 
