@@ -16,7 +16,7 @@ Estos sistemas se caracterizan por la *base* a la que hacen referencia. La **bas
 
 >   Los humanos utilizamos en el día a día un sistema de numeración en base 10 (como nuestros dedos), compuesto por 10 símbolos diferentes (del 0 al 9).
 
-![TN]( \media\TN.jpg)
+![TN](/media/TN.jpg)
 
 Así para el **sistema decimal en base 10**, aplicando el *Teorema Fundamental de la Numeración* visto anteriormente, las cifras que componen un número son las cantidades que están multiplicando a las distintas potencias de diez (10, 100, 1000, 10000, etc.)
 
@@ -33,11 +33,11 @@ $$
 
 Principales <u>sistemas de codificación numérica</u> usados en informática:
 
--   **Binario **(abreviado como *bin*) Sistema en **base 2** que utiliza dos símbolos diferentes: el cero y el uno (0,1).
+-   **Binario** (abreviado como *bin*) Sistema en **base 2** que utiliza dos símbolos diferentes: el cero y el uno (0,1).
     
--   **Octal. **Es un sistema en **base 8** que utiliza los símbolos del 0 al 7 para representar las cantidades, las cuales quedan reproducidas posicionalmente por potencias de 8.
+-   **Octal.** Es un sistema en **base 8** que utiliza los símbolos del 0 al 7 para representar las cantidades, las cuales quedan reproducidas posicionalmente por potencias de 8.
     
--   **Hexadecimal **(abreviado como *hex*). Es un sistema de numeración en **base 16**. Usa 16 símbolos diferentes, del 0 al 9 y los dígitos valores (o letras) A, B, C, D, E y F.
+-   **Hexadecimal** (abreviado como *hex*). Es un sistema de numeración en **base 16**. Usa 16 símbolos diferentes, del 0 al 9 y los dígitos valores (o letras) A, B, C, D, E y F.
 
 El sistema que maneja internamente un ordenador es el **binario**, pero, en ocasiones, por comodidad en el manejo de los datos, se suele utilizar el octal y el hexadecimal, ya que mucha de la información que nos muestra el sistema operativo, como direcciones de memoria, se expresa en hexadecimal.
 
@@ -141,11 +141,11 @@ Debido a la estructura de 64 bits de un microprocesador las direcciones de memor
 
   
 
-![]( \media\bsod.jpg)
+![](/media/bsod.jpg)
 
    Pantallazo de la muerte (*blue screen of death*) en un sistema Windows clásico
 
-![]( \media\kernel_panic.jpg)
+![](/media/kernel_panic.jpg)
 
    *Kernel Panic* en un sistema Linux
 
@@ -156,13 +156,13 @@ Debido a la estructura de 64 bits de un microprocesador las direcciones de memor
 
 Repaso de las operaciones básicas con potencias:
 
-<img src=" \media\potencias.png" style="zoom:67%;" />
+<img src="/media/potencias.png" style="zoom:67%;" />
 
 
 
 ### Esquema general de conversiones
 
-![]( \media\esquema_conversiones.png)
+![](/media/esquema_conversiones.png)
 
 
 
@@ -173,7 +173,7 @@ Para hacer la conversión de decimal a binario, hay que ir dividiendo el número
 -   Convertir en binario el número decimal **28**:
 
 
-   <img src=" \media\decimal_binario.jpg" style="zoom:67%;" />
+   <img src="/media/decimal_binario.jpg" style="zoom:67%;" />
 
 $$
 28 = 11100
@@ -186,7 +186,7 @@ Para hacer la conversión de decimal a octal, hay que ir dividiendo el número d
 
 -   Convertir en octal el número decimal **786**:
 
-<img src=" \media\decimal_octal.jpg" style="zoom:50%;" />
+<img src="/media/decimal_octal.jpg" style="zoom:50%;" />
 $$
 786=1422
 $$
@@ -209,7 +209,7 @@ Para realizar la conversión de binario a decimal se toman los dígitos binarios
 
 - Convertir en decimal el número binario **1000011011**:
 
-![]( \media\binario_decimal.png)
+![](/media/binario_decimal.png)
 
 
 
@@ -322,13 +322,13 @@ Bit es el acrónimo *Binary digit* (‘dígito binario’). Un bit es un dígito
 
 Los bits se pueden combinar para dar distintos resultados y generar distintos sistemas de codificación como hemos visto.
 
-![]( \media\light_bulbs.jpg)
+![](/media/light_bulbs.jpg)
 
 Los **sistemas de codificación** se utilizan para procesar la información que el usuario entiende y el ordenador no.
 
 En dispositivos magnéticos, por ejemplo, una posición magnetizada se convierte en un uno y cada posición no magnetizada en un cero. Se buscará en una **tabla de códigos** y se compara la combinación de esos ocho bits, obteniendo la equivalencia con un carácter concreto en el caso de textos.
 
-![]( \media\magnetics.png)
+![](/media/magnetics.png)
 
 Diferentes tipos de información poseen diferentes codificaciones, pero las más habituales son:
 
@@ -381,7 +381,7 @@ El código ASCII se divide básicamente en:
 
 - **Codificación de la tabla ASCII original (7 bits)**:	<https://ascii.cl/es/>
 
-![]( \media\tabla_ascii.jpg)
+![](/media/tabla_ascii.jpg)
 
 
 
@@ -399,7 +399,7 @@ En ASCII solo es posible trabajar con un alfabeto a la vez. ASCII tampoco es vá
 
 -   **Codificación de la tabla ASCII extendida (8 bits):**
 
-![]( \media\ascii_extendida.jpg)
+![](/media/ascii_extendida.jpg)
 
 
 
@@ -447,7 +447,7 @@ Es un código de caracteres internacionalizado. Es el resultado más conocido de
 
 
 
-![]( \media\planos_unicode.jpg)
+![](/media/planos_unicode.jpg)
 
 
 
@@ -459,7 +459,7 @@ Es un código de caracteres internacionalizado. Es el resultado más conocido de
 
 **Unicode BMP: subconjunto ASCII (Basic Latin)**
 
-![]( \media\unicode_bmp.png)
+![](/media/unicode_bmp.png)
 
 
 
@@ -487,7 +487,7 @@ Es un código de caracteres internacionalizado. Es el resultado más conocido de
 
 >   💡 En sistemas de computación el código **BCD** (Binary-Coded Decimal) o Decimal codificado en binario es un estándar para representar números decimales en el sistema binario, en donde cada dígito decimal es codificado **con una secuencia de 4 bits**.
 
-![]( \media\codigo_bcd.jpg)
+![](/media/codigo_bcd.jpg)
 
 
 #### Codificación de números negativos
@@ -549,7 +549,7 @@ En este caso, el 0 (decimal) sólo tiene una única representación 00000000 y l
 
 En ciencia se utiliza habitualmente la **notación científica decimal** en la que se basa, donde cada número lleva asociada una mantisa y un exponente.
 
-<img src=" \media\notacion_cientifica.png" style="zoom:67%;" />
+<img src="/media/notacion_cientifica.png" style="zoom:67%;" />
 
 La idea del estándar IEE754 es descomponer el número en dos partes para su representación binaria:
 
@@ -559,7 +559,7 @@ La idea del estándar IEE754 es descomponer el número en dos partes para su rep
 
 - Un **exponente** que indica dónde se coloca el punto decimal (o binario) en relación al inicio de la mantisa. Los exponentes negativos representan números menores que uno.
 
-  <img src=" \media\mantisa_exponente.png" style="zoom:67%;" />
+  <img src="/media/mantisa_exponente.png" style="zoom:67%;" />
 
 
 
@@ -592,7 +592,7 @@ Los formatos más comunes del **estándar IEE754 **son de 32 o 64 bits de longit
 
 - Ejemplos:
 
-  ![]( \media\coma_flotante.png)
+  ![](/media/coma_flotante.png)
 
 
 ## Unidades de medida de información
@@ -677,7 +677,7 @@ Un ordenador o cualquier sistema de control basado en un microprocesador no pued
 La conversión **analógica-digital** (CAD) o **digitalización** consiste en la transcripción de señales analógicas en señales digitales, con el propósito de facilitar su procesamiento (codificación, compresión, etc.) y
 hacer la señal resultante la digital más inmune al ruido y otras interferencias.
 
-<img src=" \media\digitalizacion.jpg" style="zoom:80%;" />
+<img src="/media/digitalizacion.jpg" style="zoom:80%;" />
 
 - Ventajas de la **digitalización**:
 
@@ -696,4 +696,4 @@ hacer la señal resultante la digital más inmune al ruido y otras interferencia
 
 A las imágenes en mapa de bits se las suele definir por su altura y anchura (en píxeles) y por su **profundidad de color** (en bits por píxel), que determina el número de colores distintos que se pueden almacenar en cada punto individual, y por lo tanto la calidad del color de la imagen.
 
-![]( \media\profundidad color.png)
+![](/media/profundidad color.png)
