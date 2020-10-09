@@ -565,12 +565,17 @@ La idea del estándar IEE754 es descomponer el número en dos partes para su rep
 
 Para convertir un número real a su representación en coma flotante deberemos hacerlo en <u>3 pasos</u>:
 
-- Pasar el número decimal a **binario** (la parte entera y la decimal)
-- Convertir el binario a **notación científica** (mover la coma flotante)
-- Convertir en **IEE754** de <u>32 bits</u>:
-   - Signo (1 bit: si es positivo 0, si es negativo 1)
-   - Exponente: sumarle 127 (8 bits)
-   - Mantisa (23 bits)
+1. Pasar el número decimal a **binario** (la parte entera y la decimal)
+
+2. Convertir el binario a **notación científica** (mover la coma flotante)
+
+3. Convertir en **IEE754** de <u>32 bits</u> (existe también uno de 64bits)
+
+- Signo (1 bit: si es positivo 0, si es negativo 1)
+- Exponente: sumarle 127 (8 bits)
+- Mantisa (23 bits)
+
+![iee754](/media/iee754.png)
 
 Los números en coma flotante decimales normalmente se expresan en **notación** científica con un punto explícito siempre entre el primer y el segundo dígitos. El exponente o bien se escribe explícitamente incluyendo la base, o se usa una e para separarlo de la mantisa.
 
@@ -595,6 +600,7 @@ Los formatos más comunes del **estándar IEE754 **son de 32 o 64 bits de longit
   ![](/media/coma_flotante.png)
 
 
+
 ## Unidades de medida de información
 
 Hay que recordar que cuando hablamos de cantidades de información y sus unidades de medida, éstas serán múltiplos de **potencias de 2**, aumentando en **2^10** cada vez.
@@ -617,41 +623,6 @@ Hay que recordar que cuando hablamos de cantidades de información y sus unidade
 -   **1 Kbyte (KB)**: 1024 bytes
 -   **1 Megabyte (MB)**: 1024 Kbytes
 -   **1 Gigabyte (GB)**: 1024 Mb
-
-
-
-- [ ] ¿Cuántos bytes tienen **16MB**? Y, ¿cuántos bits?
-
-  
-
-
-
-- [ ] Continua las siguientes secuencias de números en la base especificada:
-
-  Base 2: 1100, 1101 →
-
-  Base 2: 1111 →
-
-  Base 8: 65, 66, 67 →
-
-  Base 16: FFC, FFD, FFE →
-
-  Base 16: FFEF →
-
-
-
-- [ ] Imaginemos que tenemos que inventar un código que haga corresponder cada carácter con una cadena binaria. Como necesito usar, los números 0 al 3, las vocales tanto en mayúsculas como en minúsculas y sólo algunas consonantes (b, c, d), ¿de cuántos bits será el código que necesito? Diséñalo:
-
-
-
-
-- [ ] Rellena la siguiente tabla respecto del código ASCII:
-
-| **ASCII**       |              |        |        | **ENTER** | **\\** |               |        |
-|-----------------|--------------|--------|--------|-----------|--------|---------------|--------|
-| **DECIMAL**     |              | **65** |        |           |        |               |        |
-| **HEXADECIMAL** |              |        | **1B** |           |        |               | **7E** |
-| **BINARIO**     | **10100100** |        |        |           |        | **0100 0000** |        |
 
 
 
