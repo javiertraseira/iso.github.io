@@ -54,7 +54,7 @@ Se utilizan porque:
     -   Mac OS hasta 8.6
 -   Familia Microsoft Windows 9x
 
-<img src="/media/nucleo_monolítico.jpg" alt="nucleo_monolítico" style="zoom:50%;" />
+<img src="media/nucleo_monolítico.jpg" alt="nucleo_monolítico" style="zoom:50%;" />
 
 ### 2. Micronúcleo
 
@@ -68,7 +68,7 @@ Las aplicaciones y los servicios menos esenciales se construyen sobre el micron�
 
 Ejemplo: antiguos UNIX y Mach
 
-<img src="/media/micronúcleo.jpg" alt="micronúcleo" style="zoom:50%;" />
+<img src="media/micronúcleo.jpg" alt="micronúcleo" style="zoom:50%;" />
 
 
 ### 3. Modelo cliente-servidor	
@@ -104,7 +104,7 @@ Este tipo de arquitectura consiste básicamente en un esquema de micronúcleo qu
 
 Se trata de una solución de compromiso que han adoptado muchos de los sistemas operativos modernos como Windows o Mac.
 
-<img src="/media/nucleo_hibrido.jpg" alt="nucleo_hibrido" style="zoom:50%;" />
+<img src="media/nucleo_hibrido.jpg" alt="nucleo_hibrido" style="zoom:50%;" />
 
 Ejemplos:
 
@@ -116,6 +116,6 @@ Ejemplos:
 
 ##   Comparativa	
 
-![comparavia_kernels](/media/comparavia_kernels.jpg)
+![comparavia_kernels](media/comparavia_kernels.jpg)
 
 ![](media/arquitectura_winvslinux.png)
