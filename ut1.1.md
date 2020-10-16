@@ -16,11 +16,11 @@ El objeto de estudio de la Informática es muy amplio:
 -   **Aspecto Lógico** (Almacenamiento, Organización de datos, Programas,
     Información y Comunicación entre dispositivos).
 
-![](/media/b602f1f3e512f6a349e94b23d96914dc.png)
+![](media/b602f1f3e512f6a349e94b23d96914dc.png)
 
 Actualmente es difícil concebir un área que no use el apoyo de la informática. Existen ramas de la informática dedicada a nuevos campos como la Inteligencia Artificial, Ingeniería, Cine, Música, Videojuegos, Realidad Virtual y Robótica, en desarrollo gracias al apoyo de varias ciencias.
 
-![campos_informatica]( /media/campos_informatica.png)
+![campos_informatica](media/campos_informatica.png)
 
 Campos fundamentales de las **ciencias de la computación**:
 
@@ -57,7 +57,7 @@ Campos fundamentales de las **ciencias de la computación**:
     - La implementación y estudio de sistemas que exhiben (ya sea por una inteligencia autónoma o comportamiento propio, a veces inspirado por las características de los seres vivos.
     - Robótica: algoritmos para el control de robots autónomos
 
-    <img src=" /media/driving.jpg" alt="driving" style="zoom:67%;" />
+    <img src="media/driving.jpg" alt="driving" style="zoom:67%;" />
 
     
 
@@ -82,12 +82,12 @@ Campos fundamentales de las **ciencias de la computación**:
 
 El ordenador es una máquina compuesta de elementos físicos (**hardware**), en su mayoría circuitos electrónicos, capaces de realizar una gran variedad de trabajos de **procesamiento digital** a gran velocidad.
 
-![esquema_si]( /media/esquema_si.jpg)
+![esquema_si](media/esquema_si.jpg)
 
 Estos componentes electrónicos necesitan de otros componentes no físicos que los pongan en funcionamiento; los **programas, apps o software**.
 
 
-![partes_si]( /media/partes_si.jpg)
+![partes_si](media/partes_si.jpg)
 
 >   💡 Un ordenador se distingue de otros dispositivos similares, como una calculadora no programable, es que es una máquina de propósito general, es decir, puede realizar tareas muy diversas, de acuerdo a las posibilidades de sus programas y el hardware.
 
@@ -103,7 +103,7 @@ El **software básico** para hacer funcionar cualquier ordenador se denomina **s
 
 El **firmware** es otro elemento importante entre software y hardware dentro de un sistema informático. Consta de instrucciones (software) que fijan la lógica primaria sobre los circuitos (hardware) funcionando como el nexo entre las instrucciones que llegan al dispositivo desde el exterior y sus diversas partes electrónicas.
 
-<img src="/media/firmware.jpg" alt="firmware" style="zoom:67%;" />
+<img src="media/firmware.jpg" alt="firmware" style="zoom:67%;" />
 
 
 
@@ -117,7 +117,7 @@ La conexión entre los diferentes subsistemas o componentes de un SI se realiza 
 
 
 
-![Sistema_informatico](/media/Sistema_informatico.png)
+![Sistema_informatico](media/Sistema_informatico.png)
 
 
 
@@ -152,7 +152,7 @@ informático más utilizado por empresas alrededor del mundo, ya que le permiten
 
 >   💡 Se denomina **hardware** a todas las partes tangibles de un ordenador o computadora: sus componentes eléctricos, electrónicos, electromecánicos, así como sus periféricos asociados, cables, baterías o carcasas y cajas.
 
-<img src="/media/piezas_ordenador.jpg" alt="piezas_ordenador" style="zoom: 80%;" /><img src="/media/cpd.jpg" alt="cpd" style="zoom:50%;" />
+<img src="media/piezas_ordenador.jpg" alt="piezas_ordenador" style="zoom: 80%;" /><img src="media/cpd.jpg" alt="cpd" style="zoom:50%;" />
 
 
 
@@ -183,7 +183,7 @@ La **evolución** del hardware desde el SXX a la actualidad ha sido tecnológica
 
 - **3ª Generación** (*1964-1975*): electrónica basada en **circuitos integrados**. Esta tecnología permitió integrar cientos de transistores y otros componentes electrónicos en un único circuito integrado impreso en una pastilla de silicio. Las computadoras redujeron así considerablemente su costo, y tamaño e incrementado su velocidad y fiabilidad.
 
-![circuito_integrado](/media/circuito_integrado.jpg)
+![circuito_integrado](media/circuito_integrado.jpg)
 
 
 
@@ -234,7 +234,7 @@ La **evolución** del hardware desde el SXX a la actualidad ha sido tecnológica
 
 
 
-![IBM360](/media/IBM360.jpg)
+![IBM360](media/IBM360.jpg)
 
 > IBM 360
 
@@ -246,7 +246,7 @@ La **evolución** del hardware desde el SXX a la actualidad ha sido tecnológica
 -  Aparecen las primeras microcomputadoras (Apple II, Spectrumy Commodore)
 -  Surgen los primeros sistemas operativos mordernos como Unix
 
-![](/media/4004.jpg)
+![](media/4004.jpg)
 
 > Intel 4004
 
@@ -276,4 +276,4 @@ La **evolución** del hardware desde el SXX a la actualidad ha sido tecnológica
 
 Se trata de una predicción formulada por el cofundador de Intel, Gordon E. Moore, el 19 de abril de 1965, cuyo cumplimiento se ha podido constatar hasta el día de hoy.
 
-![Ley_moore](/media/Ley_moore.jpg)
+![Ley_moore](media/Ley_moore.jpg)
