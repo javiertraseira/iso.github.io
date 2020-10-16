@@ -173,7 +173,7 @@ Para hacer la conversión de decimal a binario, hay que ir dividiendo el número
 -   Convertir en binario el número decimal **28**:
 
 
-   <img src="/media/decimal_binario.jpg" style="zoom:67%;" />
+   <img src="media/decimal_binario.jpg" style="zoom:67%;" />
 
 $$
 28 = 11100
@@ -186,7 +186,7 @@ Para hacer la conversión de decimal a octal, hay que ir dividiendo el número d
 
 -   Convertir en octal el número decimal **786**:
 
-<img src="/media/decimal_octal.jpg" style="zoom:50%;" />
+<img src="media/decimal_octal.jpg" style="zoom:50%;" />
 $$
 786=1422
 $$
@@ -198,7 +198,7 @@ Para hacer la conversión de decimal a hexadecimal, hay que ir dividiendo el nú
 
 -   Convertir en hexadecimal el número decimal **1869**:
 
-![]( \media\decimal_hexadecimal.jpg)
+![](media/decimal_hexadecimal.jpg)
 $$
 1869 = 74D
 $$
@@ -209,7 +209,7 @@ Para realizar la conversión de binario a decimal se toman los dígitos binarios
 
 - Convertir en decimal el número binario **1000011011**:
 
-![](/media/binario_decimal.png)
+![](media/binario_decimal.png)
 
 
 
@@ -322,13 +322,13 @@ Bit es el acrónimo *Binary digit* (‘dígito binario’). Un bit es un dígito
 
 Los bits se pueden combinar para dar distintos resultados y generar distintos sistemas de codificación como hemos visto.
 
-![](/media/light_bulbs.jpg)
+![](media/light_bulbs.jpg)
 
 Los **sistemas de codificación** se utilizan para procesar la información que el usuario entiende y el ordenador no.
 
 En dispositivos magnéticos, por ejemplo, una posición magnetizada se convierte en un uno y cada posición no magnetizada en un cero. Se buscará en una **tabla de códigos** y se compara la combinación de esos ocho bits, obteniendo la equivalencia con un carácter concreto en el caso de textos.
 
-![](/media/magnetics.png)
+![](media/magnetics.png)
 
 Diferentes tipos de información poseen diferentes codificaciones, pero las más habituales son:
 
@@ -381,7 +381,7 @@ El código ASCII se divide básicamente en:
 
 - **Codificación de la tabla ASCII original (7 bits)**:	<https://ascii.cl/es/>
 
-![](/media/tabla_ascii.jpg)
+![](media/tabla_ascii.jpg)
 
 
 
@@ -399,7 +399,7 @@ En ASCII solo es posible trabajar con un alfabeto a la vez. ASCII tampoco es vá
 
 -   **Codificación de la tabla ASCII extendida (8 bits):**
 
-![](/media/ascii_extendida.jpg)
+![](media/ascii_extendida.jpg)
 
 
 
@@ -447,7 +447,7 @@ Es un código de caracteres internacionalizado. Es el resultado más conocido de
 
 
 
-![](/media/planos_unicode.jpg)
+![](media/planos_unicode.jpg)
 
 
 
@@ -459,7 +459,7 @@ Es un código de caracteres internacionalizado. Es el resultado más conocido de
 
 **Unicode BMP: subconjunto ASCII (Basic Latin)**
 
-![](/media/unicode_bmp.png)
+![](media/unicode_bmp.png)
 
 
 
