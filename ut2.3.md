@@ -223,7 +223,7 @@ Tanto la técnica de paginación como la técnica de segmentación tienen ventaj
 
 Es el más sencillo y consiste en elegir como víctima la página que más tiempo lleva en memoria. Para ello es necesario que cada página posea un contador del tiempo que lleva en memoria o bien que exista una cola por orden de entrada.
 
-![]( \media\algoritmo_fifo.png)
+![](media/algoritmo_fifo.png)
 
 >   Partiendo de un estado inicial en que nuestras tres páginas están vacías, las tres primeras referencias a distintas páginas de memoria (7, 0, 1) causarán fallos de página. La siguiente (2) causará uno, pero la quinta referencia (0) puede ser satisfecha sin requerir una nueva transferencia.
 
@@ -233,7 +233,7 @@ Es el más sencillo y consiste en elegir como víctima la página que más tiemp
 
 Consiste en reemplazar la página que tardará más tiempo en utilizarse. Este algoritmo garantiza la tasa menor de fallos de página, pero no es fácilmente implementable.
 
-![]( \media\algoritmo_opt.png)
+![](media/algoritmo_opt.png)
 
 > Este algoritmo, es de interés casi puramente teórico, y también conocido como OPT. Bajo este algoritmo, el enunciado será elegir como página a eliminar aquella página que no vaya a ser utilizada por un tiempo máximo.
 >
@@ -242,13 +242,13 @@ Consiste en reemplazar la página que tardará más tiempo en utilizarse. Este a
 
 Consiste en reemplazar aquella página que no haya sido utilizada desde hace más tiempo. La idea es suponer que si una página lleva mucho tiempo sin utilizarse tardará en volver a ser utilizada. Para implementar este algoritmo, a cada página se le asocia un contados que indica cuando se utilizó por última vez. Es el algoritmo más utilizado.
 
-![]( \media\algoritmo_lru.png)
+![](media/algoritmo_lru.png)
 
 >   Cuando necesita elegir una página a eliminar, LRU elige la página que no ha sido empleada durante más tiempo. 
 
 ### Comparación FIFO vs LRU
 
-![]( \media\comparacion_fifo_lru.png)
+![](media/comparacion_fifo_lru.png)
 
 
 
@@ -275,7 +275,7 @@ La traducción de memoria virtual en paginación, es parecido al de la segmentac
 -   Una **dirección física F**, está a su vez formada por un marco o frame junto con el desplazamiento indicado por la dirección virtual (f,d).
     
 
-![]( \media\mecanismo_traduccion.png)
+![](media/mecanismo_traduccion.png)
 
 #### Proceso de traducción
 
