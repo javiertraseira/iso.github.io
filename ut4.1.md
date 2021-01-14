@@ -214,7 +214,7 @@ Es recomendable separar físicamente, por lo menos, las redes de almacenamiento,
 
 ## Cloud Computing
 
->   💡 El **cloud computing **es la utilización de recursos (servidores, aplicaciones, …) que se encuentran en internet. con lo que la gestión de la infraestructura (servidores, almacenamiento, red) se encarga un tercero.
+>   💡 El **cloud computing** es la utilización de recursos (servidores, aplicaciones, …) que se encuentran en internet. con lo que la gestión de la infraestructura (servidores, almacenamiento, red) se encarga un tercero.
 
 Se trata de obtener una optimización total de la infraestructura mediante la automatización para conseguir una flexibilidad y adaptabilidad de los recursos informáticos.
 
@@ -230,7 +230,7 @@ Se trata de obtener una optimización total de la infraestructura mediante la au
 
 **Ventajas**
 
--   La **disponibilidad **se refiere a que la infraestructura estará siempre disponible, desde cualquier lugar. Lo único que necesitamos es conexión para poder acceder a nuestros recursos.
+-   La **disponibilidad** se refiere a que la infraestructura estará siempre disponible, desde cualquier lugar. Lo único que necesitamos es conexión para poder acceder a nuestros recursos.
     
 -   Su flexibilidad, ya que un aumento de demanda se puede ‘escalar’ la capacidad de una infraestructura, volviendo luego a un estado de baja demanda.
 
@@ -246,9 +246,9 @@ Se trata de obtener una optimización total de la infraestructura mediante la au
 
 Terminología propia asociada al **Cloud Computing**:
 
--   IaaS (**Infraestructure **as a Service)
--   PaaS (**Platform **as a Service)
--   SaaS (**Software **as a Service)
+-   IaaS (**Infraestructure** as a Service)
+-   PaaS (**Platform** as a Service)
+-   SaaS (**Software** as a Service)
 - Nube Privada
 -   Nube Publica
 -   Nube Hibrida
@@ -258,4 +258,4 @@ Terminología propia asociada al **Cloud Computing**:
 
 
 
->   El proyecto **OpenStack **es una plataforma software de cloud computing de software libre utilizada para desplegar nubes públicas y privadas. Fue desarrollada con la idea de ser sencilla de implementar, escalable y con altas prestaciones. OpenStack proporciona una solución de Infraestructura como servicio (IaaS) a través de un conjunto de servicios interrelacionados.
+>   El proyecto **OpenStack** es una plataforma software de cloud computing de software libre utilizada para desplegar nubes públicas y privadas. Fue desarrollada con la idea de ser sencilla de implementar, escalable y con altas prestaciones. OpenStack proporciona una solución de Infraestructura como servicio (IaaS) a través de un conjunto de servicios interrelacionados.
