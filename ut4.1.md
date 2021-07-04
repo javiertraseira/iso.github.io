@@ -1,261 +1,331 @@
-# UT4.1: Virtualización
+# UT4.1 Gestión de los recursos de un SO: Los procesos
 
-## Virtualización
+## Procesos	
 
-La **virtualización** consiste en la creación a través de software específico de una versión virtual de un recurso tecnológico, como puede ser una plataforma de hardware, un sistema operativo, un dispositivo
-de almacenamiento y otros recursos de red.
+>   💡 Un **proceso** es un concepto manejado por el sistema operativo y que hace referencia a un conjunto de instrucciones de un programa en ejecución cargado en memoria.
 
-La virtualización es una tecnología relativamente reciente, ya que hasta
-poco solo estaba disponible para grandes empresas con alto poder económico, pero hoy en día existe multitud de soluciones para la virtualización al alcance de las pequeñas y medianas empresas.
+A los procesos, dependiendo del sistema operativo utilizado, se les denomina también **flujos de control**, **tareas**, **hebras o hilos (threads)**, dependiendo del contexto.
 
->   💡 Una **máquina virtual** se crea con un software de virtualización conocido también como **hipervisor** y que emula a un ordenador real con sus recursos y componentes virtuales: disco duro, memoria RAM, tarjetas de red, tarjeta gráfica…
+Los sistemas operativos son los encargados de gestionar los recursos de hardware requeridos (principalmente el uso de la CPU o E/S), atendiendo a la diferentes prioridades cuando se ejecuta más de un proceso de forma concurrente (en SO multitarea).
 
-Que los componentes sean de una máquina virtual sean virtuales no quiere decir que <u>no existan</u>.
+>   📌 Cuando un proceso se carga en memoria, el sistema operativo le asigna información en el **bloque de control de procesos (BCP)**, el cual estudiaremos más adelante durante este tema.
 
->   Por ejemplo, una máquina virtual puede tener unos recursos reservados de 2 GB de RAM y 20 GB de disco duro, que obviamente salen de algún sitio: del PC donde está instalada la máquina virtual.
+Si trabajásemos con un **sistema operativo monotarea** (como *MS-DOS* en su día) la gestión de procesos sería muy sencilla: la CPU ejecutaría todas las instrucciones del proceso de un programa hasta finalizar y solo en ese momento continuaría con otro proceso en cola si lo hubiera.
 
->   El sistema operativo de la máquina real se conoce como **sistema anfitrión** (host).
+El problema de este tipo de sistemas se hace evidente ya que mientras no finaliza la ejecución de un programa no puede pasarse a otro desaprovechando recursos y tiempo.
 
->   Los diferentes sistemas que podemos disponer desde el sistema anfitrión en modo virtual se denominan **sistemas huésped**.
+En la actualidad la mayoría de sistemas operativos son **multitarea**.
 
-Cada **máquina virtual** (sistema huésped) puede interactuar de forma independiente con otros dispositivos, aplicaciones, datos y usuarios, como si se tratara de un recurso físico independiente.
+El sistema operativo esta hecho para no permitir a los procesos ejecutarse sino por una fracción de tiempo **muy pequeña**, de tal forma que en un solo segundo muchos programas han tenido tiempo de procesamiento, es decir muchos procesos de distintos programas se han ejecutado en lapsos diminutos de tiempo.
 
-Diferentes máquinas virtuales pueden ejecutar diferentes sistemas operativos y múltiples aplicaciones al mismo tiempo utilizando un solo equipo físico. Debido a que cada máquina virtual está aislada de otras máquinas virtualizadas, en caso de ocurrir un bloqueo esto que no afecta a las demás máquinas virtuales.
+>   💡  En un SO multitarea se aprovechan los tiempos de espera entre recursos y CPU de forma que esta se mantiene siempre trabajando. Esta técnica se conoce como **multiprogramación** y tiene como finalidad conseguir un mejor aprovechamiento de la CPU.
 
-A continuación veremos las características de las máquinas virtualizadas con más detalle y luego otra especie o clase de virtualización nueva denominada como **contenedores**.
 
-Esquema básico de dos máquinas virtuales huésped dentro de una misma máquina anfitrión que utiliza un software de virtualización o hipervisor tipo 2:
+Para la resolución de ejercicios prácticos/teoría usaremos un tipo de diagramas ampliamente utilizado en informática denominados **diagramas de Gantt.**
 
-![](media\esquema_virtualizacion.jpg)
+>   📌 Un **diagrama de Gantt** es una representación gráfica para representar el tiempo de dedicación previsto para diferentes tareas o procesos a lo largo de un tiempo total determinado.
 
 
 
-La virtualización se **caracteriza** por proporcionar:
+![diagrama_gantt](media/diagrama_gantt.png)
 
--   Aislamiento
-
--   Encapsulación
-
--   Compatibilidad
-
--   Independencia del hardware
-
-### 1. Aislamiento
-
-Aunque las máquinas virtuales comparten los recursos del sistema anfitrión en el que residen, **están totalmente aisladas** como si se trataran de máquinas <u>independientes</u>.
-
-### 2. Encapsulación
-
-El estado completo de la máquina virtual se guarda en **archivos**. Se  pueden mover, copiar y clonar máquinas virtuales como archivos.
-
-### 3. Compatibilidad
-
-Las máquinas virtuales son totalmente compatibles con los sistemas operativos, aplicaciones y controladores de dispositivos x86 y x64 estándar.
-
-> Esto último no es cierto para todos los modelos de procesadores.
-
-### 4. Independencia del hardware
-
-Se puede configurar una máquina virtual con componentes virtuales (CPU, tarjeta de red, controladores) que sean diferentes a los componentes físicos del hardware subyacente del anfitrión.
-
-## Tipos de soluciones de virtualización
-
-Existen diferentes **tipos de soluciones de virtualización**, dependiendo el uso final al que vayan destinadas dichas máquinas virtuales:
-
-1. **Virtualización de sistemas operativos**
-2.  **Virtualización de servidores**
-3.  **Virtualización de redes**
-4.  **Virtualización de almacenamiento**
-5.  **Virtualización de escritorios**
-
-### 1. Virtualización de sistemas operativos
-
->   💡 La **virtualización** aplicada a los **sistemas operativos**, consiste en compartir una misma infraestructura de hardware por varios sistemas operativos funcionando de forma totalmente independiente. Es el tipo de virtualización que vamos a trabajar en este módulo.
-
-Cada huésped “verá” su propia CPU, memoria, discos, etc. independientemente de los recursos de que disponga el anfitrión o el resto de huéspedes.
-
-### 2. Virtualización de servidores
-
->   💡 La **virtualización de servidores** permite que varios servidores virtuales se ejecuten en un mismo dispositivo físico permitiendo a su vez aprovechar su máxima potencia en una misma máquina y no en distintos servidores que podrían quedar infrautilizados.
-
-### 3. Virtualización de redes
-
->   💡 La **virtualización de redes** es la reproducción completa de una red física por medio de un software de virtualización.
-
-Las aplicaciones de la red virtual se ejecutan exactamente igual que en una red física. La virtualización de red expone los dispositivos y servicios de redes lógicos (puertos, conmutadores, enrutadores, cortafuegos, VPN, etc.) a las cargas de trabajo conectadas. Las redes virtuales cuentan con las mismas características que las redes físicas, con las ventajas operativas y la independencia del hardware que ofrece la virtualización.
-
-### 4. Virtualización de almacenamiento
-
->   💡 La **virtualización de almacenamiento** consiste en unir múltiples dispositivos de almacenamiento en red, dando la apariencia de ser una única unidad de almacenamiento (como el almacenamiento en la nube).
-
-La virtualización de almacenamiento es utilizada con frecuencia en redes de área de almacenamiento de alta velocidad, que comparten dispositivos y realizan tareas de respaldo y recuperación de datos de manera más fácil y rápida.
+Diagrama de Gantt de la ejecución de dos procesos **P1** y **P2** en un SO monotarea. El tiempo **t** en este tipo de diagramas se mide en **ciclos de procesador**.
 
 
-### 5. Virtualización de escritorios
+>   💡 Se denomina **hebra** o **hilo** a un punto de ejecución cualquiera en un proceso. Un proceso tendrá siempre una hebra, en la que corre el propio programa, pero puede tener más hebras.
 
->   💡 La **virtualización de escritorios** consiste en llevar a una plataforma virtual, los escritorios de los usuarios finales, disminuyendo los costos y la complejidad de la administración. 
+Un proceso clásico es aquel que solo posee una **hebra**.
 
+[^1]: Si por ejemplo ejecutamos un procesador de textos como Word, con un solo documento abierto, el programa Word convertido en proceso estará ejecutándose en un único espacio de memoria (con acceso a archivos, galerías de imágenes, corrector ortográfico..). Este proceso, de momento, tendrá una hebra. Si en esta situación, sin cerrar Word abrimos un nuevo documento, Word no se volverá a cargar como proceso. Simplemente el programa, convertido en proceso, tendrá a su disposición **dos hebras **o hilos diferentes, de tal forma que el proceso sigue siendo el mismo (el original). Word se está ejecutando una sola vez y el resto de documentos de texto que abramos serán hilos o hebras del proceso principal, que es el propio procesador de textos.
 
-La virtualización de escritorios también permite disponer de las aplicaciones empresariales siempre que se necesiten, indistintamente del lugar donde se encuentre el usuario en el momento de acceder a dicho escritorio.
+![hebras_hilos](media/hebras_hilos.png)
 
-## Hipervisores
+## Estados y transiciones de los procesos	
 
->   💡 El **hipervisor**, también llamado *monitor de máquina virtual (VMM),* es el núcleo central de algunas de las tecnologías de virtualización de hardware más populares y eficaces que veremos a continuación.
+Existen **tres estados** para los procesos (o hilos correspondientes):
 
-Los hipervisores son aplicaciones que presentan a los sistemas operativos virtualizados (sistemas invitados) una plataforma operativa virtual (hardware virtual), a la vez que ocultan a dicho sistema operativo virtualizado las características físicas reales del equipo sobre el que operan.
+-   **En ejecución:** El procesador está ejecutando instrucciones del proceso
+    cargado en ese momento (tiene su atención y prioridad)
 
-Los hipervisores se pueden clasificar según su forma de funcionar:
-
--   **Tipo 1** (nativos): Se ejecutan directamente sobre el hardware sin necesidad de SO.
--   **Tipo 2** (anfitriones): Usan un SO anfitrión para ejecutarse sobre este.
-
-![](media\tipo_hipervisores.jpg)
-
-### Ventajas y desventajas de la virtualización
-
-**Ventajas:**
-
--   **Ahorro de costes**: Principalmente en energía, personal, espacio físico y equipos hardware individuales.
+-   **Preparado, en espera o activo:** El proceso está preparado para ser
+    ejecutado y esperando su turno para ser atendido por la CPU.
     
--   **Aislamiento y seguridad**: las máquinas virtuales son independientes entre sí. El fallo de una no afecta a las demás.
+-   **Bloqueado:** El proceso ha entrado en un estado de bloqueo que puede
+    darse por causas múltiples (acceso a un mismo fichero, errores..)
     
--   **Flexibilidad y portabilidad**: se manejan ficheros (encapsulación) lo que permite hacer copias rápidamente y recuperaciones de forma rápida.
+    [^2]: En algunas biografías pueden utilizarse también los estados **nuevo** y **terminado** .
     
--   **Re-uso** de aplicaciones antiguas o de **tecnologías** diferentes dedicadas para cada máquina.
     
--   **Mantenimiento** desde una sola máquina (parches, actualizaciones, aumento de memoria o hardware)
-    
--   **Balanceo de recursos**: nos permite asignar la carga de recursos según necesidades a las máquinas (ya sea CPU, memoria, disco..)
-    
--   Realización de **pruebas**: se utiliza para evitar riesgos innecesarios.
 
-**Desventajas**:
+------
 
--   **Rendimiento inferior**: una máquina virtual nunca alcanzará el mismo rendimiento que el de un sistema instalado directamente en una máquina dedicada, ya que el hipervisor introduce una capa intermedia para la gestión de recursos. Esto implica que un mal diseño a la hora de virtualizar o unos
-    requisitos insuficientes en la máquina host afectan al rendimiento de las máquinas virtuales.
-    
--   **Limitaciones de hardware**: solo podremos utilizar/emular el hardware soportado por el software de virtualización y limitado por el del equipo host.
-    
--   Fallos en el hardware y software: el fallo de un componente de hardware en la máquina física o de su propio SO afectará a todas las máquinas virtuales que utilicen dicho recurso.
-    
--   **Licencias**: algunas soluciones requieren licencias muy costosas.
+Una vez que un programa se ha lanzado y se ha convertido en proceso, puede atravesar varias fases o **estados** hasta que termina.
 
--   **Soporte de aceleración 3D y video**: la mayoría de máquinas virtuales no soporta aceleración 3D ni tiene por asomo el rendimiento gráfico de la máquina anfitrión.
+![](media/transiciones.jpg)
 
-## Virtualización mediante contenedores
+Los cambios de estado en los que se puede encontrar un proceso es lo que se denomina **transiciones**:
 
-El último avance de la virtualización es la utilización de **contenedores**, lo cual ha generado una rama completamente nueva respecto la virtualización clásica.
+- **Transición A**. Ocurre porque el proceso que está en ejecución necesita algún elemento, señal, dato, para poder continuar ejecutándose.
 
-Con esta tecnología no se virtualiza el sistema entero, sino que, partiendo de una imagen de base, se registran los cambios realizados tanto por instalaciones como por desinstalaciones, de aplicaciones y servicios. De esta manera los ficheros de las imágenes de las máquinas son mucho menores y
-las necesidades de espacio se reducen considerablemente.
+- **Transición B**. Ocurre cuando un proceso ha utilizado el tiempo asignado por la CPU y deja paso al siguiente proceso.
 
-![contenedores_mv](media\contenedores_mv.png)
+- **Transición C**. Ocurre cuando el proceso que está preparado pasa a estado de ejecución en la CPU. 
 
-
-Los **contenedores **ofrecen mejoras sustanciales en cuanto rendimiento respecto a las maquinas virtuales clásicas:
-
--   Pueden arrancar en segundos.
--   Ocupan menos espacio en disco.
--   Se puede ejecutar mas contenedores en un servidor que maquinas  virtuales.
--   Despliegue de aplicaciones mucho mas rápido.
-
-### Contenedores vs máquinas virtuales
-
-En general no podemos afirmar cual de estas dos soluciones es la mejor, aparte del tema de rendimiento, ya que dependerá de la finalidad del proyecto o desarrollo a implantar.
-
-Las preocupaciones de seguridad y los usos prácticos de las máquinas virtuales implican por tanto que los contenedores no necesariamente reemplazarán a los hipervisores, sino que las empresas utilizarán una
-combinación de ambos.
-
-En cuanto al tema de seguridad, algunos consideran que los contenedores son menos seguros que los hipervisores, debido a que los contenedores solo tienen un sistema operativo que las aplicaciones comparten, mientras que las VM aíslan no solo la aplicación, sino también el sistema operativo.
-
-
-
-## Software de virtualización
-
-Existen diversas soluciones de software de virtualización; tanto hipervisores como de contenedores: software libre, propietario, orientado a servidores, a SO concretos, etc.
-
-![media\software_virtualizacion.png)
-
-## Infraestructura y hardware
-
-Intel y AMD han desarrollado independientemente **extensiones de virtualización** a la arquitectura x86 que no viene preparada para dar soporte a la virtualización.
-
-Las extensiones no son directamente compatibles entre sí, pero proporcionan las mismas funciones. Ambos permiten que una máquina virtual se ejecute en un huésped no modificado sin incurrir en penalizaciones de emulación y deben de ser habilitadas previamente en la máquina a través de su BIOS.
-
-- **VT Intel (IVT):** La extensión de Intel para virtualización de la arquitectura de 32 y 64 bits se llama IVT *(Intel Virtualization Technology)*
-
-- **AMD-V:** La extensión de virtualización AMD para la arquitectura de 64 bits x86 se llama *AMD Virtualization*, y también se la referencia por el nombre "Pacífica".
+- **Transición D**. Ocurre cuando el proceso pasa a preparado, es decir, al recite la orden o señal que estaba esperando en estado de bloqueado.
 
   
 
-```
-Software de virtualización: 
- motor de virtualización: hipervisor o gestor de contenedores
-            
-Capacidad de procesamiento:
-CPUs potente con varios núcleos y compatible con instrucciones de virtualización       (IVT-x o AMD-V)
-Cada hipervisor se pueden configurar para establecer el número de núcleos disponibles para cada huésped.
 
-Memoria:
-Prever las necesidades de RAM de cada SO huésped y dotar a la máquina anfitriona de la cantidad de RAM adecuada.
-En SO antiguos de 32 bits no se pueden exceder los 4GB de RAM.
-            
-Almacenamiento:
-Se puede elegir un espacio de disco fijo o un espacio dinámico. Es necesario prever las necesidades futuras de espacio.
-En el caso de servidores utilización de SAN o NAS
-            
-Red:
-Interfaces de red y ancho de banda suficientes.
-Se hacen necesarios el uso de VLANs y configuraciones personalizadas a nivel de red.
-Es recomendable separar físicamente, por lo menos, las redes de almacenamiento, gestión y maquinas virtuales.
-```
+![estados_procesos](media/estados_procesos.png)
 
-​            
 
-## Cloud Computing
 
->   💡 El **cloud computing** es la utilización de recursos (servidores, aplicaciones, …) que se encuentran en internet. con lo que la gestión de la infraestructura (servidores, almacenamiento, red) se encarga un tercero.
+En el siguiente diagrama observamos tres procesos (*o hilos*) pasando de estado de ejecución a quedar en espera o bloqueados:
 
-Se trata de obtener una optimización total de la infraestructura mediante la automatización para conseguir una flexibilidad y adaptabilidad de los recursos informáticos.
+![diagrama_procesos](media/diagrama_procesos.jpg)
 
-¿Que se quiere resolver con la utilización de Cloud Computing?
+Del que un proceso cambie de estado en un momento u otro se encarga el **planificador de procesos del sistema operativo.**
 
--   Coste de la infraestructura
+>   💡 El **planificador** de un sistema operativo se encarga de asignar **prioridades** a los diferentes procesos para llevar a cabo su ejecución en el menor tiempo y de la forma más óptima posible.
 
--   Escalabilidad
+Mediante técnicas que veremos a continuación, se consigue indicar a la CPU del ordenador que procesos deben ejecutarse en qué momento concreto y los diferentes estados que deben ir adoptando. Ello se lleva cabo mediante **algoritmos de planificación**.
 
--   Flexibilidad
+Como hemos visto, cualquier proceso, pasará por diferentes estados y el cambio de un estado a otro no es trivial y tanto la forma como el tiempo para hacerlo marcarán la eficiencia del sistema. 
 
--   Disponibilidad
+> 💡 Un **cambio de contexto** consiste en interrumpir la ejecución de un proceso para comenzar o seguir con otro.
 
-**Ventajas**
+![cambio_contexto](media/cambio_contexto.png)
 
--   La **disponibilidad** se refiere a que la infraestructura estará siempre disponible, desde cualquier lugar. Lo único que necesitamos es conexión para poder acceder a nuestros recursos.
+
+
+##   Bloque de control de procesos	
+
+>   💡 La información de un proceso que el sistema operativo necesita para controlarlo se  guarda en un **bloque de control de procesos o BCP**. 
+
+En el **BCP** cada proceso almacena información como:
+
+- Nombre del proceso
+
+-   **Identificador del nombre e identificador del proceso**. A cada proceso se le asigna un identificador denominado **PID**. Si tiene un proceso padre se identificará a su vez con su **PPID**.
     
--   Su flexibilidad, ya que un aumento de demanda se puede ‘escalar’ la capacidad de una infraestructura, volviendo luego a un estado de baja demanda.
-
-**Desventajas**
-
--   Absoluta dependencia de las comunicaciones, si no hay conexión no habrá acceso a la nube y sus servicios.
+-   **Estado actual del proceso**: Ejecución, preparado o bloqueado.
     
--   Problemas de seguridad.
+-   **Prioridad del proceso**. Se la asigna el planificador o el usuario de forma manual.
+    
+-   **Ubicación y tamaño usado en memoria**. Dirección de memoria en la que está cargado el proceso y espacio utilizado.
+    
+- **Recursos utilizados**. Otros recursos hardware y software para poder ejecutarse.
 
--   Dependencia total del proveedor.
+  
 
--   Problemas legales (**LOPD**). Desconocimiento de donde esta nuestra información y su gestión.
-
-Terminología propia asociada al **Cloud Computing**:
-
--   IaaS (**Infraestructure** as a Service)
--   PaaS (**Platform** as a Service)
--   SaaS (**Software** as a Service)
-- Nube Privada
--   Nube Publica
--   Nube Hibrida
--   Big Data
-
-![](media\cloud_computing.jpg)
+| BCP básico de un proceso |
+| ------------------------ |
+| Nombre del proceso       |
+| PID del proceso y PPID   |
+| Estado del proceso       |
+| Prioridad del proceso    |
+| Ubicación en memoria     |
+| Tamaño en memoria        |
+| Recursos                 |
 
 
 
->   El proyecto **OpenStack** es una plataforma software de cloud computing de software libre utilizada para desplegar nubes públicas y privadas. Fue desarrollada con la idea de ser sencilla de implementar, escalable y con altas prestaciones. OpenStack proporciona una solución de Infraestructura como servicio (IaaS) a través de un conjunto de servicios interrelacionados.
+
+## Algoritmos de planificación
+
+>   💡 Un **algoritmo** es una serie ordenada de instrucciones o pasos o que llevan a la solución de un determinado problema.
+
+Los hay tan sencillos y cotidianos como seguir la receta del médico, abrir una puerta, lavarse las manos, etc; hasta los que conducen a la solución de problemas muy complejos.
+
+1.  Tomar el cepillo de dientes
+
+2.  Aplicar crema dental al cepillo
+
+3.  Abrir el grifo
+
+4.  Remojar el cepillo con la crema dental
+
+5.  Cerrar el grifo
+
+6.  Frotar los dientes con el cepillo
+
+7.  Abrir el grifo
+
+8.  Enjuagarse la boca
+
+9.  Enjuagar el cepillo
+
+10. Cerrar el grifo
+
+    
+
+Gracias a los **algoritmos de planificación** usados en SO multiproceso, la CPU se encarga de asignar tiempos de ejecución a cada proceso según el tipo de algoritmo y la prioridad de cada proceso.
+
+El objetivo de un algoritmo de planificación es decidir qué proceso se ejecuta en cada momento en la CPU de un SO multitarea.
+
+Dichos algoritmos pueden ser de <u>dos tipos</u>:
+
+-   **Apropiativos**: un proceso puede ser interrumpido por otro para dejarle acabar.
+-   **No apropiativos**: una vez un proceso entra en la CPU no se libera hasta terminar. 
+
+Los algoritmos de planificación usados en SO actuales que veremos son:
+-   **Algoritmo FIFO **(*First Input First Output*)
+-   **Algoritmo SJF **(*Shortest Job First*)
+-   **Algoritmo de rueda **(*Round Robin*)
+-   **Algoritmo basado en prioridad**
+
+
+
+### 1. Algoritmo FIFO
+
+Para este algoritmo denominado **FIFO** (*First Input, First Output*), *el primero que entra es el que sale*. El procesador ejecuta cada proceso hasta que finaliza, por tanto, los procesos llegará a una cola de procesos a esperar en orden a que les llegue su turno.
+
+Se trata de una política muy simple y sencilla de llevar a la práctica, pero de rendimiento pobre.
+
+La cantidad de tiempo de espera de cada proceso depende del número de procesos que haya antes en cola de espera. Sus características son:
+
+-   **No apropiativo** (**La CPU no se libera hasta haber terminado**)
+
+-   Es justo, aunque los procesos largos hacen esperar mucho a los cortos.
+
+-   El tiempo medio de servicio es muy variable en función del número de
+    procesos y su duración.
+
+
+
+### 2. Algoritmo SJF
+
+El algoritmo **SJF **(*Shortest Job First* ) que viene de ‘el trabajo más corto primero’. Se trata de un algoritmo que supone que los tiempos de ejecución ya se conocen de antemano, algo que no siempre es posible saber.
+Cuando hay varios trabajos de igual importancia esperando a ser iniciados en la cola de entrada, el planificador seleccionará el trabajo más corto primero.
+
+Sus características son:
+
+-  No apropiativo.
+
+-  Muy complicado de implementar, necesario predecir los tiempo de ejecución de los procesos con antelación.
+   
+-  Se considera relativamente óptimo.
+
+### 3.   Algoritmo RR (rueda)
+
+El algoritmo **RR** (*Round Robin*) o de la rueda es uno de los algoritmos más sencillos y utilizados en sistemas Windows y Linux. En su utilización no se establecen prioridades (siendo apropiativo). Cada proceso tiene asignado un tiempo de ejecución denominado **quantum (Q)**. Si se cumple ese tiempo y la tarea no ha concluido, se da paso al siguiente proceso y el proceso no finalizado pasa al final de la lista de procesos en espera.
+
+Sus características son:
+
+-   Apropiativo
+
+-   Es un algoritmo **justo** (evita la monopolización de la CPU)
+
+-   Su rendimiento depende del valor de **Q**
+
+-   Usa FIFO para la gestión de la cola de procesos.
+
+
+El *quantum* **Q** suele definirse entre unos *20ms*o *50ms*
+    
+
+>   Tal y como se muestra en la figura, si se está ejecutando el *proceso 1*y se agota su cantidad de **quantum Q**, se desalojaría la CPU y pasaría a ejecutarse el *proceso 2*. Cuando termine el quantum del *proceso 10* se pasará de nuevo al *proceso 1*. Se usa **FIFO** a la hora de pasar de un proceso a otro en la cola.
+
+![RR](media/RR.jpg)
+
+### 4.   Algoritmo basado en prioridad
+
+Otro tipos de algoritmos usados en SO modernos son los basados en **prioridades**. En ellos se asocia una prioridad a cada proceso y la CPU se asigna al trabajo con prioridad más alta en cada momento.
+
+Normalmente, si se está ejecutando un proceso de prioridad media y entra un proceso de prioridad mayor, se requisa la CPU al primer proceso y se le entrega al proceso de mayor prioridad.
+
+
+
+### 5. Ejemplos de algoritmos
+
+Algunos **conceptos** importantes que usaremos a la hora de completar las tablas de los problemas de los diferentes algoritmos de planificación:
+
+- **Ciclo de llegada:** Momento en el que llega un proceso al planificador de procesos del SO.
+
+- **Ciclos de ejecución**: Ciclos de CPU que consume un proceso mientras se encuentra en estado de ejecución
+
+- **Tiempo de espera**: Tiempo que un proceso está esperando en la cola de procesos preparados o listos.
+
+- **Tiempo de retorno**: Tiempo que transcurre desde que un proceso llega, hasta que sale (tiempo que tarda en ejecutarse)
+
+  
+
+1. Representa en forma de diagrama de Gantt del **algoritmo FIFO** para la siguiente lista de 5 procesos (*A,B,C,D,E*): 
+
+![](media/Problema1.png)
+
+2. Representa en forma de diagrama de Gantt del **algoritmo SJF** para la siguiente lista de 5 procesos (*A,B,C,D,E*): 
+
+![](media/Problema2.png)
+
+3. Representa en forma de diagrama de Gantt del **algoritmo RR con q**=**2 ** para la siguiente lista de 5 procesos (*A,B,C,D,E*):
+
+![Problema3](media/Problema3.png)
+
+
+4.  Representa en forma de diagrama de Gantt del **algoritmo de Prioridad** para
+    la siguiente lista de 5 procesos (*A,B,C,D,E*): 
+
+![Problema4](media/Problema4.png)
+
+
+
+##   Interrupciones	
+
+>   💡 Una **interrupción** es una señal que obliga al SO a tomar el control del procesador para estudiarla y tratarla.
+
+Una interrupción es un mecanismo que permite ejecutar un bloque de instrucciones interrumpiendo la ejecución normal de un programa, y luego intentar restablecer la ejecución del mismo sin afectarlo directamente. De este modo un programa puede ser interrumpido temporalmente para atender alguna necesidad urgente del computador y luego continuar su ejecución como si nada hubiera pasado. Algunos tipos de interrupciones **no son recuperables**.
+
+Existen varios tipos de interrupciones:
+
+- Interrupciones de hardware 
+- Interrupciones de software. 
+- Excepciones. 
+
+<img src="media/interrupciones_so.png" alt="interrupciones_so" style="zoom:80%;" />
+
+### Interrupciones de hardware y software
+
+Existen varios tipos de interrupciones, dependiendo de dónde se produzcan dichos eventos para ser atendidos:
+
+-   **De hardware**, un dispositivo (hardware) requiere la atención de la CPU para ejecutar su driver.
+- **De I/O**, provocadas por los dispositivos de I/O.
+  
+- **Externas**, provocadas por elementos hardware del ordenador.
+  
+- **De reinicio** (inesperadas), del sistema, pulsar tecla reinicio…
+  
+-   **De Software**, se producen como consecuencia directa de los procesos en ejecución.
+    - **Llamadas al Sistema,**invocación de una instrucción del sistema.
+
+Cuando se produce una interrupción se pasa el control al sistema operativo, quien salva el contexto del proceso que se estaba ejecutando y se analiza la interrupción. Las interrupciones están catalogadas y el sistema operativo dispone de rutinas especiales para manipular cada tipo de interrupción. Una vez se ha atendido la interrupción la CPU continúa con su anterior tarea.
+
+<img src="media/interrupcion.png" alt="interrupcion" style="zoom:67%;" />
+
+
+### Excepciones
+
+> 💡 Una **excepción** es un tipo de interrupción provocada por la propia CPU a causa de un <u>error en la ejecución del proceso en activo</u> como puede ser la realización de operaciones no permitidas, códigos de operación mal expresados, direcciones de memoria fuera de rango, etc.
+
+Es el proceso o el proprio programa el que intenta llevar a cabo el manejo y control de dicho error.
+
+El tratamiento de una excepción es similar al de la interrupción, con la salvedad de que las excepciones, a menudo, no continúan el proceso con fallo sino que lo abortan.
+
+<img src="media/exception.png" alt="exception" style="zoom:50%;" />
+
+
+### Comparativa entre interrupciones y excepciones
+
+
+
+|                      **Interrupciones**                      |                       **Excepciones**                        |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Las interrupciones se presentan inesperadamente y sin relación con el proceso en ejecución. Son parte intrínseca del funcionamiento de cualquier sistema. | Las excepciones se producen como efecto directo de una instrucción concreta del proceso que se esta ejecutando. Aparecen por defectos de programación y errores graves. |
+| Las rutinas de software que tratan las interrupciones, son eventos generales que afectan al sistema en general y que no están relacionadas ni soportadas por los procesos en ejecución, siendo rutinas del SO las que tienen la misión de llevarlas a cabo. | Las rutinas de software que tratan las excepciones forman parte de los propios programas en ejecución. |
+| Las interrupciones suelen tener asociados niveles de prioridad para su tratamiento. | Las excepciones no tienen asociados niveles de prioridad para su tratamiento. |
+| Si se producen varias interrupciones simultáneamente, sólo se tratará una, quedando bloqueadas el resto. |          Las excepciones se producen de una en una.          |
+
+
+
+
+

@@ -1,4 +1,4 @@
-# UT2.3 Gestión de los recursos de un SO: La memoria
+# UT4.2 Gestión de los recursos de un SO: La memoria
 
 ## Gestión de la memoria RAM
 
@@ -120,7 +120,6 @@ La gestión de la **memoria virtual** se lleva a cabo mediante las cuatro técni
 -   La memoria física se divide en **marcos de página**.
 
 -   La dirección virtual consta de un número de página virtual y un desplazamiento.
-    
 
 #### Proceso de paginación
 
@@ -236,7 +235,6 @@ Consiste en reemplazar la página que tardará más tiempo en utilizarse. Este a
 ![](media/algoritmo_opt.png)
 
 > Este algoritmo, es de interés casi puramente teórico, y también conocido como OPT. Bajo este algoritmo, el enunciado será elegir como página a eliminar aquella página que no vaya a ser utilizada por un tiempo máximo.
->
 
 ### 3. Algoritmo LRU (Last Recent Used)
 
@@ -273,7 +271,6 @@ La traducción de memoria virtual en paginación, es parecido al de la segmentac
 -   Una **dirección virtual o lógica V**, se denota por un par ordenado (p,d), donde p es el número de página en el que se encuentra el elemento al que se hace referencia, y d es el desplazamiento a partir del inicio del bloque.
     
 -   Una **dirección física F**, está a su vez formada por un marco o frame junto con el desplazamiento indicado por la dirección virtual (f,d).
-    
 
 ![](media/mecanismo_traduccion.png)
 
