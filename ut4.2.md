@@ -1,4 +1,4 @@
-# UT4.2 Gestión de los recursos de un SO: La memoria
+# UD4.2 Gestión de los recursos de un SO: La memoria
 
 ## Gestión de la memoria RAM
 

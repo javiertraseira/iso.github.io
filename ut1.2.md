@@ -1,4 +1,4 @@
-# UT1.2 Introducción a los sistemas informáticos: software 
+# UD1.2 Introducción a los sistemas informáticos: software 
 
 ## El software
 
@@ -173,7 +173,6 @@ Algunos tipos de licencias de **software libre**:
 -   **Licencias MIT**: Licencia de Instituto Tecnológico de Massachusetts. Es una licencia con casi ninguna limitación de uso o modificación y que no tiene restricción en el uso de software pudiendo tener variantes privativas del mismo. Software libre no significa *no comercial*.
     
     Un programa libre debe estar disponible para uso comercial, desarrollo comercial y distribución comercial. El desarrollo comercial del software libre ha dejado de ser inusual y el software comercial libre es muy importante.
-    
 
 ### Cuadro resumen licencias
 
@@ -182,5 +181,4 @@ Algunos tipos de licencias de **software libre**:
 |---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | **Freeware** Uso gratuito No se puede modificar                                                                           | **Shareware** Se prueba y luego se paga No se puede modificar                        |
 | **Dominio público** Software sin licencia. Se permite uso, copia, modificación o redistribución con o sin fines de lucro. |
-
 

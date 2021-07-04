@@ -1,4 +1,4 @@
-# UT3.2 Estructura de los SO
+# UD3.2 Estructura de los SO
 
 ## Niveles de ejecución de un SO	
 

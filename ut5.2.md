@@ -1,6 +1,4 @@
- 
-
-# UT5.2: Gestión del almacenamiento en los SO
+# UD5.2: Gestión del almacenamiento en los SO
 
 ## Unidades de almacenamiento secundario
 

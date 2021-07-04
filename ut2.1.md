@@ -1,4 +1,4 @@
-# UT2.1 Representación de la información: sistemas de numeración y codificación
+# UD2.1 Representación de la información: sistemas de numeración y codificación
 
 ## Tipos de datos
 

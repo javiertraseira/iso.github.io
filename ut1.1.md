@@ -1,4 +1,4 @@
-# UT1.1: Introducción a los sistemas informáticos: hardware
+# UD1.1: Introducción a los sistemas informáticos: hardware
 
 
 ## Informática
